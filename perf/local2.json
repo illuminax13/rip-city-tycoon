@@ -1,0 +1,69 @@
+{
+ "url": "http://127.0.0.1:8765/",
+ "when": "2026-10-17T05:23:08.149Z",
+ "pickerTiles_ms": 1069,
+ "loadEvent_ms": 7856,
+ "pickerInteractive_ms": 7863,
+ "coldBytes": 1486511,
+ "coldReqs": 39,
+ "coldLongTasks": {
+  "n": 1,
+  "total": 107
+ },
+ "setLoad_ms": 259,
+ "spinFrames": {
+  "n": 160,
+  "mean": 19.3,
+  "p95": 33.4,
+  "max": 83.4,
+  "janky": 2
+ },
+ "tapToTear_ms": 34,
+ "tearFrames": {
+  "n": 26,
+  "mean": 70.8,
+  "p95": 266.5,
+  "max": 316.7,
+  "janky": 10
+ },
+ "tearLatency": {
+  "n": 24,
+  "mean": 120.8,
+  "p95": 328.3,
+  "max": 341.4,
+  "janky": 22
+ },
+ "ripToStack_ms": 1828,
+ "stackImgsReady_ms": 0,
+ "flipFrames": {
+  "n": 227,
+  "mean": 37,
+  "p95": 66.7,
+  "max": 166.6,
+  "janky": 29
+ },
+ "shelfReady_ms": 205,
+ "binderOpen_ms": 668,
+ "pageTurnFrames": {
+  "n": 39,
+  "mean": 27,
+  "p95": 137.3,
+  "max": 166.6,
+  "janky": 3
+ },
+ "after20": {
+  "heapMB": 2.8,
+  "nodes": 1978,
+  "listeners": 400,
+  "lsKB": 60
+ },
+ "totalLongTasks": {
+  "n": 2,
+  "total": 164
+ },
+ "totalBytes": 1486511,
+ "totalReqs": 160,
+ "warmTiles_ms": 303,
+ "warmBytes": 0,
+ "warmReqs": 114
+}

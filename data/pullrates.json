@@ -1,0 +1,4575 @@
+{
+ "_doc": "Per-pack probabilities. WOTC 11 cards (Base Set has 2 basic energy among commons); SV/ME 10 cards; SWSH 10 cards. No forced energy. SV/ME: 4C, 3U, reverse A (ACE SPEC / Master Ball / Poke Ball foil can replace), reverse B (IR/SIR/HR can replace), rare slot (DR/UR replace R). SWSH: 5C, 3U, 1 reverse, rare slot. No documented English god packs modelled. God packs: only sets with documented ENGLISH god/demigod packs carry a 'godPacks' list (151, Prismatic Evolutions, Black Bolt, White Flare, Ascended Heroes). Each entry replaces the whole pack; rate = probability per pack; all rates are estimates (TPCi publishes none). Special structures: 'cel' (Celebrations, 4 all-foil cards) and 'c30' (30th Celebration, 5 all-foil cards with a guaranteed Pikachu rare). Crown Zenith: Galarian Gallery/Radiant replace the SWSH reverse; Paldean Fates: shiny rares in SV slots. Lorcana (lorcana-N): structure 'lor'; rates.sr/l are per rare slot (x2), fl/fsr/fr/fu are foil-slot rarities, en/ep/ic are Enchanted/Epic/Iconic per pack (replace the foil).",
+ "base1": {
+  "structure": "wotc",
+  "energy": 2,
+  "rates": {
+   "holo": 0.333333
+  },
+  "oneIn": {
+   "holo": 3
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Base_Set_(TCG)",
+  "estimated": false,
+  "note": "11 cards: 2 basic energy (shuffled among commons), 5C, 3U, 1 rare (holo 1/3)"
+ },
+ "base2": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.333333
+  },
+  "oneIn": {
+   "holo": 3
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Jungle_(TCG)",
+  "estimated": false,
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3)"
+ },
+ "base3": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.333333
+  },
+  "oneIn": {
+   "holo": 3
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Fossil_(TCG)",
+  "estimated": false,
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3)"
+ },
+ "swsh7": {
+  "structure": "swsh",
+  "rates": {
+   "holo": 0.333333,
+   "v": 0.111111,
+   "vmax": 0.055556,
+   "ur": 0.038462,
+   "sec": 0.016667
+  },
+  "oneIn": {
+   "holo": 3,
+   "v": 9,
+   "vmax": 18,
+   "ur": 26,
+   "sec": 60
+  },
+  "source": "https://pullrates.com/set/evolving-skies",
+  "estimated": false,
+  "note": "Secret = rainbow (1/88) + gold, combined 1/60 estimated."
+ },
+ "sv03.5": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.125,
+   "ur": 0.0625,
+   "ir": 0.083333,
+   "sir": 0.03125,
+   "hr": 0.019608,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 8,
+   "ur": 16,
+   "ir": 12,
+   "sir": 32,
+   "hr": 51
+  },
+  "source": "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Scarlet-Violet%E2%80%94151-Pull-Rates/b237df74-fbb0-40d0-9e13-d69ee6e804d9/",
+  "estimated": false,
+  "note": "English 151 has no Poke Ball/Master Ball reverses.",
+  "godPacks": [
+   {
+    "kind": "demi",
+    "label": "Demi-God Pack",
+    "contents": "starter",
+    "rate": 0.0006666666666666666,
+    "oneIn": 1500,
+    "estimated": true,
+    "source": "https://www.thetrainercourt.com/blogs/resources/english-booster-box-guaranteed-hit-rates-god-packs",
+    "source2": "https://woahpoke.com/pokemon-god-packs/",
+    "note": "English 151 has demigod packs only: the last 3 slots are one Kanto starter's full line (basic IR, stage-1 IR, ex SIR); other 7 cards normal. No published odds; community opening logs put them around 1 in 1-2k packs, so 1/1500 chosen."
+   }
+  ]
+ },
+ "sv08": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.011494,
+   "hr": 0.005291,
+   "ace": 0.05,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 15,
+   "ir": 13,
+   "sir": 87,
+   "hr": 189,
+   "ace": 20
+  },
+  "source": "https://pullrates.com/set/surging-sparks",
+  "estimated": false
+ },
+ "sv08.5": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.076923,
+   "ir": 0,
+   "sir": 0.022222,
+   "hr": 0.005556,
+   "ace": 0.047619,
+   "pb": 0.333333,
+   "mb": 0.05
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 13,
+   "sir": 45,
+   "hr": 180,
+   "ace": 21,
+   "pb": 3,
+   "mb": 20
+  },
+  "source": "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Prismatic-Evolutions-Pull-Rates/d94889ea-f76a-4a13-b74d-5b0b071220a7/",
+  "estimated": false,
+  "note": "No Illustration Rares in set; demigod packs not modelled.",
+  "godPacks": [
+   {
+    "kind": "god",
+    "label": "God Pack",
+    "contents": "eeveelutions",
+    "rate": 0.0001,
+    "oneIn": 10000,
+    "estimated": true,
+    "source": "https://snkrdunk.com/en/magazine/2024/10/02/pokemon-tcg-international-expansion-set-release-scarlet-violet-8-5-release-date-price-where-to-buy/",
+    "source2": "https://www.thetrainercourt.com/blogs/resources/english-booster-box-guaranteed-hit-rates-god-packs",
+    "note": "Master Ball reverse Eevee + all 9 Eevee/Eeveelution SIRs (mirrors Japanese Terastal Festival god pack). Only a handful documented in English despite enormous print run, so set much rarer than the demigod: ~1/10,000 (estimate)."
+   },
+   {
+    "kind": "demi",
+    "label": "Demi-God Pack",
+    "contents": "3sir",
+    "rate": 0.001,
+    "oneIn": 1000,
+    "estimated": true,
+    "source": "https://dotesports.com/pokemon/news/pokemon-tcg-prismatic-evolutions-seemingly-contains-elusive-demi-god-packs",
+    "source2": "https://www.thetrainercourt.com/blogs/resources/english-booster-box-guaranteed-hit-rates-god-packs",
+    "note": "Normal 7 cards + 3 random distinct SIRs in the last 3 slots. Frequently streamed (many clips), so ~10x more common than the full god pack: ~1/1,000 (estimate)."
+   }
+  ]
+ },
+ "sv09": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.011111,
+   "hr": 0.006667,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 15,
+   "ir": 13,
+   "sir": 90,
+   "hr": 150
+  },
+  "source": "https://pullrates.com/set/journey-together",
+  "estimated": false
+ },
+ "sv10": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.0625,
+   "ir": 0.083333,
+   "sir": 0.010638,
+   "hr": 0.006897,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 16,
+   "ir": 12,
+   "sir": 94,
+   "hr": 145
+  },
+  "source": "https://rarecards.nl/en/blogs/tcg-blogs/top-10-pokemon-sets-met-beste-pull-rates-in-2026",
+  "estimated": false,
+  "note": "UR estimated; HR per poke-life.com"
+ },
+ "sv10.5b": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.058824,
+   "ir": 0.166667,
+   "sir": 0.0125,
+   "hr": 0.001,
+   "ace": 0,
+   "pb": 0.333333,
+   "mb": 0.052632
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 17,
+   "ir": 6,
+   "sir": 80,
+   "hr": 1000,
+   "pb": 3,
+   "mb": 19
+  },
+  "source": "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Black-Bolt-and-White-Flare-Pull-Rates/bac92199-a2a7-4668-b4a4-2647a111776f/",
+  "estimated": false,
+  "note": "Black White Rare unmeasured; 1/1000 estimated.",
+  "godPacks": [
+   {
+    "kind": "god",
+    "label": "God Pack",
+    "contents": "9ir1sir",
+    "rate": 0.0005,
+    "oneIn": 2000,
+    "estimated": true,
+    "source": "https://www.pokebeach.com/2025/07/black-bolt-and-white-flare-english-set-guides-full-card-lists-pull-rates-cut-cards-products-and-more",
+    "source2": "https://www.thetrainercourt.com/blogs/resources/english-booster-box-guaranteed-hit-rates-god-packs",
+    "note": "9 Illustration Rares + 1 SIR (PokeBeach: confirmed in English, rate unknown, 'similar to previous sets'). Packs only sold in special products; ~1/2,000 estimate."
+   }
+  ]
+ },
+ "sv10.5w": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.058824,
+   "ir": 0.166667,
+   "sir": 0.0125,
+   "hr": 0.001,
+   "ace": 0,
+   "pb": 0.333333,
+   "mb": 0.052632
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 17,
+   "ir": 6,
+   "sir": 80,
+   "hr": 1000,
+   "pb": 3,
+   "mb": 19
+  },
+  "source": "https://www.tcgplayer.com/content/article/Pok%C3%A9mon-TCG-Black-Bolt-and-White-Flare-Pull-Rates/bac92199-a2a7-4668-b4a4-2647a111776f/",
+  "estimated": false,
+  "note": "Black White Rare unmeasured; 1/1000 estimated.",
+  "godPacks": [
+   {
+    "kind": "god",
+    "label": "God Pack",
+    "contents": "9ir1sir",
+    "rate": 0.0005,
+    "oneIn": 2000,
+    "estimated": true,
+    "source": "https://www.pokebeach.com/2025/07/black-bolt-and-white-flare-english-set-guides-full-card-lists-pull-rates-cut-cards-products-and-more",
+    "source2": "https://www.thetrainercourt.com/blogs/resources/english-booster-box-guaranteed-hit-rates-god-packs",
+    "note": "9 Illustration Rares + 1 SIR (PokeBeach: confirmed in English, rate unknown, 'similar to previous sets'). Packs only sold in special products; ~1/2,000 estimate."
+   }
+  ]
+ },
+ "me01": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.083333,
+   "ir": 0.111111,
+   "sir": 0.009901,
+   "hr": 0.000794,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 12,
+   "ir": 9,
+   "sir": 101,
+   "hr": 1260
+  },
+  "source": "https://pullrates.com/set/mega-evolution",
+  "estimated": false
+ },
+ "me02": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.083333,
+   "ir": 0.111111,
+   "sir": 0.0125,
+   "hr": 0.0008,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 12,
+   "ir": 9,
+   "sir": 80,
+   "hr": 1250
+  },
+  "source": "https://pullrates.com/set/phantasmal-flames",
+  "estimated": false
+ },
+ "me02.5": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.047619,
+   "ir": 0.111111,
+   "sir": 0.014286,
+   "hr": 0.001901,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 21,
+   "ir": 9,
+   "sir": 70,
+   "hr": 526
+  },
+  "source": "https://pullrates.com/set/ascended-heroes",
+  "estimated": false,
+  "note": "MHR per poke-life.com; Mega Attack Rares (1/300) not in card data.",
+  "godPacks": [
+   {
+    "kind": "god",
+    "label": "God Pack",
+    "contents": "3ma7sir",
+    "rate": 0.0005,
+    "oneIn": 2000,
+    "estimated": true,
+    "source": "https://www.thetrainercourt.com/blogs/resources/english-booster-box-guaranteed-hit-rates-god-packs",
+    "source2": "https://woahpoke.com/pokemon-god-packs/",
+    "note": "3 Mega Attack Rares + 7 distinct SIRs. Card data has no separate 'Mega Attack Rare' rarity, so the Mega ex Ultra Rares (full-art) stand in for MA. No published odds; ~1/2,000 estimate."
+   }
+  ]
+ },
+ "me03": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.083333,
+   "ir": 0.111111,
+   "sir": 0.012346,
+   "hr": 0.00056,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 12,
+   "ir": 9,
+   "sir": 81,
+   "hr": 1786
+  },
+  "source": "https://pullrates.com/set/perfect-order",
+  "estimated": false,
+  "note": "Small sample (~3.6k packs)."
+ },
+ "me04": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.083333,
+   "ir": 0.111111,
+   "sir": 0.012048,
+   "hr": 0.001046,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 12,
+   "ir": 9,
+   "sir": 83,
+   "hr": 956
+  },
+  "source": "https://pullrates.com/set/chaos-rising",
+  "estimated": true,
+  "note": "Early/small sample."
+ },
+ "me05": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.2,
+   "ur": 0.083333,
+   "ir": 0.111111,
+   "sir": 0.0125,
+   "hr": 0.000925,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 5,
+   "ur": 12,
+   "ir": 9,
+   "sir": 80,
+   "hr": 1081
+  },
+  "source": "https://pullrates.com/set/pitch-black",
+  "estimated": true,
+  "note": "Early/small sample."
+ },
+ "base5": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.333333
+  },
+  "oneIn": {
+   "holo": 3
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Team_Rocket_(TCG)",
+  "estimated": false,
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3). Dark Raichu (83/82 secret holo) is in the holo pool, so it pulls more often than in real packs."
+ },
+ "neo1": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.333333
+  },
+  "oneIn": {
+   "holo": 3
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/Neo_Genesis_(TCG)",
+  "estimated": false,
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3)"
+ },
+ "cel25": {
+  "structure": "cel",
+  "rates": {
+   "cc": 0.4,
+   "v": 0.15,
+   "vmax": 0.075,
+   "ur": 0.04,
+   "sec": 0.006
+  },
+  "oneIn": {
+   "cc": 2,
+   "v": 7,
+   "vmax": 13,
+   "ur": 25,
+   "sec": 167
+  },
+  "source": "https://pullrates.com/set/celebrations",
+  "estimated": false,
+  "note": "4 cards per pack, all holofoil: 2 rares, a rare or Classic Collection card (1 in 2.5), and a holo slot that can be V / VMAX / Ultra Rare / gold Mew secret. Community counts of 5,000 packs."
+ },
+ "swsh12.5": {
+  "structure": "swsh",
+  "rates": {
+   "gg": 0.25,
+   "ggv": 0.125,
+   "ggg": 0.008,
+   "rad": 0.045455,
+   "holo": 0.076923,
+   "v": 0.177632,
+   "vmax": 0.052632,
+   "ur": 0.028571,
+   "sec": 0.007519
+  },
+  "oneIn": {
+   "gg": 4,
+   "ggv": 8,
+   "ggg": 125,
+   "rad": 22,
+   "holo": 13,
+   "v": 6,
+   "vmax": 19,
+   "ur": 35,
+   "sec": 133
+  },
+  "source": "https://pullrates.com/set/crown-zenith",
+  "estimated": false,
+  "note": "Galarian Gallery (1 in 4), GG V/VSTAR/VMAX/full art (1 in 8), GG gold (1 in 125) and Radiant (1 in 22) replace the reverse holo. Rare slot: V 1 in 8 + VSTAR 1 in 19 (combined 'v'), VMAX 1 in 19, UR 1 in 35, secret 1 in 133, holo 1 in 13. TCGplayer Authentication Center (1,500+ packs)."
+ },
+ "sv03": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.142857,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.03125,
+   "hr": 0.019231,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 7,
+   "ur": 15,
+   "ir": 13,
+   "sir": 32,
+   "hr": 52
+  },
+  "source": "https://pullrates.com/set/obsidian-flames",
+  "estimated": false,
+  "note": "TCGplayer Authentication Center (8,000+ packs)."
+ },
+ "sv04.5": {
+  "structure": "sv",
+  "rates": {
+   "sr": 0.25,
+   "sur": 0.076923,
+   "dr": 0.166667,
+   "ir": 0.071429,
+   "ur": 0.066667,
+   "sir": 0.017241,
+   "hr": 0.016129,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "sr": 4,
+   "sur": 13,
+   "dr": 6,
+   "ir": 14,
+   "ur": 15,
+   "sir": 58,
+   "hr": 62
+  },
+  "source": "https://pullrates.com/set/paldean-fates",
+  "estimated": false,
+  "note": "Shiny Rares (1 in 4) replace the second reverse holo alongside IR/SIR/HR; Shiny Ultra Rares (1 in 13) go in the rare slot with DR/UR. TCGplayer Authentication Center (1,500+ packs)."
+ },
+ "sv06": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.011628,
+   "hr": 0.006849,
+   "ace": 0.05,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 15,
+   "ir": 13,
+   "sir": 86,
+   "hr": 146,
+   "ace": 20
+  },
+  "source": "https://pullrates.com/set/twilight-masquerade",
+  "estimated": false,
+  "note": "TCGplayer Authentication Center (8,000+ packs)."
+ },
+ "30th": {
+  "structure": "c30",
+  "source2": "https://billsarchive.com/articles/30th-celebration-pull-rates.html",
+  "rates": {
+   "dr": 0.2102,
+   "ir": 0.1972,
+   "cc": 0.1015,
+   "sir": 0.0488,
+   "fr": 0.0083,
+   "rgb": 0.000246
+  },
+  "oneIn": {
+   "dr": 5,
+   "ir": 5,
+   "cc": 10,
+   "sir": 20,
+   "fr": 120,
+   "rgb": 4063
+  },
+  "source": "https://www.setpulls.com/blog/30th-celebration-pull-rates",
+  "estimated": false,
+  "note": "5 foil cards + foil basic energy (energy not shown, per app design). Slots: 2 commons; common or IR or Classic Collection; rare or DR/SIR/Futuristic Rare (SIR and FR never share a pack); one of 30 Pikachu rares every pack. Rates: TCGplayer Authentication Center 3,000+ packs. RGB Mew rate is an estimate from 1 observed in 4,063 packs (Bill's Archive / Wargamer)."
+ },
+ "lorcana-1": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-2": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-3": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-4": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-5": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-6": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-7": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-8": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.010417,
+   "ep": 0,
+   "ic": 0
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 96
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://thegamerslodge.com (Narzghal polls: Enchanted ~22% of booster boxes = ~1/96 packs; Legendary in ~18% of packs)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-9": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.01,
+   "ep": 0.0625,
+   "ic": 0.000597
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 100,
+   "epic": 16,
+   "iconic": 1676
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted, Epic and Iconic replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://www.reddit.com/r/Lorcana/comments/1njnhso/ (Fabled Pulls Tracker: 48,000+ packs; Enchanted ~1/100, Epic ~1/16, Iconic ~1/1,676 from case data, 95% CI 1/930-1/3,200)",
+  "estimated": false,
+  "note": "Per rare slot: Super Rare 25%, Legendary 9.5% (=> Legendary in ~18% of packs, matches Narzghal polls 18.2-19.5%). Foil slot: Legendary 2.4%, Super Rare 5%, Rare 14.5%, Uncommon 28.5%, else Common. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-10": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.01,
+   "ep": 0.0625,
+   "ic": 0.000597
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 100,
+   "epic": 16,
+   "iconic": 1676
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted, Epic and Iconic replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://www.reddit.com/r/Lorcana/comments/1njnhso/ (Fabled Pulls Tracker: 48,000+ packs; Enchanted ~1/100, Epic ~1/16, Iconic ~1/1,676 from case data, 95% CI 1/930-1/3,200)",
+  "estimated": true,
+  "note": "Rates measured for Fabled; later sets use the same rarity scheme (Ravensburger 2025-08 'stunning new rarities') and assume Fabled's measured rates until set-specific trackers publish. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-11": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.01,
+   "ep": 0.0625,
+   "ic": 0.000597
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 100,
+   "epic": 16,
+   "iconic": 1676
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted, Epic and Iconic replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://www.reddit.com/r/Lorcana/comments/1njnhso/ (Fabled Pulls Tracker: 48,000+ packs; Enchanted ~1/100, Epic ~1/16, Iconic ~1/1,676 from case data, 95% CI 1/930-1/3,200)",
+  "estimated": true,
+  "note": "Rates measured for Fabled; later sets use the same rarity scheme (Ravensburger 2025-08 'stunning new rarities') and assume Fabled's measured rates until set-specific trackers publish. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-12": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.01,
+   "ep": 0.0625,
+   "ic": 0.000597
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 100,
+   "epic": 16,
+   "iconic": 1676
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted, Epic and Iconic replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://www.reddit.com/r/Lorcana/comments/1njnhso/ (Fabled Pulls Tracker: 48,000+ packs; Enchanted ~1/100, Epic ~1/16, Iconic ~1/1,676 from case data, 95% CI 1/930-1/3,200)",
+  "estimated": true,
+  "note": "Rates measured for Fabled; later sets use the same rarity scheme (Ravensburger 2025-08 'stunning new rarities') and assume Fabled's measured rates until set-specific trackers publish. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-13": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.01,
+   "ep": 0.0625,
+   "ic": 0.000597
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 100,
+   "epic": 16,
+   "iconic": 1676
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted, Epic and Iconic replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://www.reddit.com/r/Lorcana/comments/1njnhso/ (Fabled Pulls Tracker: 48,000+ packs; Enchanted ~1/100, Epic ~1/16, Iconic ~1/1,676 from case data, 95% CI 1/930-1/3,200)",
+  "estimated": true,
+  "note": "Rates measured for Fabled; later sets use the same rarity scheme (Ravensburger 2025-08 'stunning new rarities') and assume Fabled's measured rates until set-specific trackers publish. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "lorcana-14": {
+  "structure": "lor",
+  "game": "lorcana",
+  "rates": {
+   "sr": 0.25,
+   "l": 0.095,
+   "fl": 0.024,
+   "fsr": 0.05,
+   "fr": 0.145,
+   "fu": 0.285,
+   "en": 0.01,
+   "ep": 0.0625,
+   "ic": 0.000597
+  },
+  "oneIn": {
+   "superRarePerPack": 2,
+   "legendaryPerPack": 5.5,
+   "legendaryFoil": 42,
+   "enchanted": 100,
+   "epic": 16,
+   "iconic": 1676
+  },
+  "slots": "6 common, 3 uncommon, 2 rare-or-better (Rare/Super Rare/Legendary), 1 foil of any rarity; Enchanted, Epic and Iconic replace the foil card",
+  "source": "https://www.cambridgetcg.com/pulls/lorcana",
+  "source2": "https://www.lorcanaplayer.com/lorcana-pull-rates/",
+  "source3": "https://www.reddit.com/r/Lorcana/comments/1njnhso/ (Fabled Pulls Tracker: 48,000+ packs; Enchanted ~1/100, Epic ~1/16, Iconic ~1/1,676 from case data, 95% CI 1/930-1/3,200)",
+  "estimated": true,
+  "note": "Rates measured for Fabled; later sets use the same rarity scheme (Ravensburger 2025-08 'stunning new rarities') and assume Fabled's measured rates until set-specific trackers publish. Lorcana has no documented god packs.",
+  "noGodPacks": "None documented for Disney Lorcana (Cambridge TCG pack-anatomy 'rare occurrences' lists none; no community tracker reports any)."
+ },
+ "base4": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.3333333333333333
+  },
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3)",
+  "estimated": false
+ },
+ "gym1": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.3333333333333333
+  },
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3)",
+  "estimated": false
+ },
+ "gym2": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.3333333333333333
+  },
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3)",
+  "estimated": false
+ },
+ "neo2": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.3333333333333333
+  },
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3)",
+  "estimated": false
+ },
+ "neo3": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.3333333333333333,
+   "sec": 0.018518518518518517
+  },
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3); Shining Pokemon replace the rare (estimated)",
+  "estimated": true
+ },
+ "neo4": {
+  "structure": "wotc",
+  "energy": 0,
+  "rates": {
+   "holo": 0.3333333333333333,
+   "sec": 0.027777777777777776
+  },
+  "note": "11 cards: 7C, 3U, 1 rare (holo 1/3); Shining Pokemon replace the rare (estimated)",
+  "estimated": true
+ },
+ "lc": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    6
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [],
+  "rates": {
+   "holo": 0.333333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "11 cards: 6C, 3U, 1 reverse holo, 1 rare (holo 1/3)",
+  "oneIn": {
+   "holo": 3
+  }
+ },
+ "ecard1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [],
+  "rates": {
+   "holo": 0.333333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; Crystal replaces the rare",
+  "oneIn": {
+   "holo": 3
+  }
+ },
+ "ecard2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "cry"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "cry": 0.020833
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; Crystal replaces the rare",
+  "oneIn": {
+   "holo": 3,
+   "cry": 48
+  }
+ },
+ "ecard3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "cry"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "cry": 0.020833
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; Crystal replaces the rare",
+  "oneIn": {
+   "holo": 3,
+   "cry": 48
+  }
+ },
+ "ex1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "ex": 8
+  }
+ },
+ "ex2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "ex": 8
+  }
+ },
+ "ex3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "ex": 8
+  }
+ },
+ "ex4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "ex": 8
+  }
+ },
+ "ex5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "ex": 8
+  }
+ },
+ "ex6": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "ex": 8
+  }
+ },
+ "ex7": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star",
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex8": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex9": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "ex": 8
+  }
+ },
+ "ex10": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex11": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star",
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex12": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star",
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex13": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star",
+   "sec"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex14": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex15": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "ex16": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    2
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "star"
+  ],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "star": 0.013889,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "9 cards: 5C, 2U, 1 reverse holo, 1 rare; ex replace the rare, Gold Star/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "star": 72,
+   "ex": 8
+  }
+ },
+ "dp1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12
+  }
+ },
+ "dp2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12
+  }
+ },
+ "dp3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12
+  }
+ },
+ "dp4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12
+  }
+ },
+ "dp5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12
+  }
+ },
+ "dp6": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12
+  }
+ },
+ "dp7": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333,
+   "sec": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12,
+   "sec": 36
+  }
+ },
+ "pl1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333,
+   "sec": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12,
+   "sec": 36
+  }
+ },
+ "pl2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333,
+   "sec": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12,
+   "sec": 36
+  }
+ },
+ "pl3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333,
+   "sec": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12,
+   "sec": 36
+  }
+ },
+ "pl4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "sec"
+  ],
+  "rareX": [
+   "lvx"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "lvx": 0.083333,
+   "sec": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; LV.X replace the rare, SH/secret replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "lvx": 12,
+   "sec": 36
+  }
+ },
+ "hgss1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "leg",
+   "prime"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "prime": 0.125,
+   "leg": 0.055556,
+   "sec": 0.013889
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; Prime/LEGEND/Alph Lithograph replace the rare",
+  "oneIn": {
+   "holo": 3,
+   "prime": 8,
+   "leg": 18,
+   "sec": 72
+  }
+ },
+ "hgss2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "leg",
+   "prime"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "prime": 0.125,
+   "leg": 0.055556,
+   "sec": 0.013889
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; Prime/LEGEND/Alph Lithograph replace the rare",
+  "oneIn": {
+   "holo": 3,
+   "prime": 8,
+   "leg": 18,
+   "sec": 72
+  }
+ },
+ "hgss3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "leg",
+   "prime"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "prime": 0.125,
+   "leg": 0.055556,
+   "sec": 0.013889
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; Prime/LEGEND/Alph Lithograph replace the rare",
+  "oneIn": {
+   "holo": 3,
+   "prime": 8,
+   "leg": 18,
+   "sec": 72
+  }
+ },
+ "hgss4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "leg",
+   "prime"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "prime": 0.125,
+   "leg": 0.055556,
+   "sec": 0.013889
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; Prime/LEGEND/Alph Lithograph replace the rare",
+  "oneIn": {
+   "holo": 3,
+   "prime": 8,
+   "leg": 18,
+   "sec": 72
+  }
+ },
+ "col1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "svr"
+  ],
+  "rareX": [],
+  "rates": {
+   "holo": 0.333333,
+   "svr": 0.25
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; Prime/LEGEND/Alph Lithograph replace the rare; Shiny Legends replace the reverse (1 in 4)",
+  "oneIn": {
+   "holo": 3,
+   "svr": 4
+  }
+ },
+ "bw1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36
+  }
+ },
+ "bw2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "fa"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "fa": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "fa": 36
+  }
+ },
+ "bw3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36
+  }
+ },
+ "bw4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.111111
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 9
+  }
+ },
+ "bw5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.111111
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 9
+  }
+ },
+ "bw6": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.111111
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 9
+  }
+ },
+ "dv1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "holo",
+    5
+   ]
+  ],
+  "rev": 0,
+  "revX": [],
+  "rareX": [],
+  "rates": {
+   "holo": 0.333333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "Dragon Vault: 5-card packs, every card a holofoil",
+  "rare": 0,
+  "oneIn": {
+   "holo": 3
+  }
+ },
+ "bw7": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "ace"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.111111,
+   "ace": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 9,
+   "ace": 12
+  }
+ },
+ "bw8": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "ace"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.111111,
+   "ace": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 9,
+   "ace": 12
+  }
+ },
+ "bw9": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "ace"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.111111,
+   "ace": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 9,
+   "ace": 12
+  }
+ },
+ "bw10": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "ace"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.111111,
+   "ace": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 9,
+   "ace": 12
+  }
+ },
+ "bw11": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "rcu",
+   "rc"
+  ],
+  "rareX": [
+   "sec",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "ex": 0.111111,
+   "rc": 0.333333,
+   "rcu": 0.055556
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, ACE SPEC (and Radiant Collection in Legendary Treasures) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "ex": 9,
+   "rc": 3,
+   "rcu": 18
+  }
+ },
+ "xy1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "fa": 0.027778,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "fa": 36,
+   "ex": 7
+  }
+ },
+ "xy2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7
+  }
+ },
+ "xy3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7
+  }
+ },
+ "xy4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7
+  }
+ },
+ "xy5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7
+  }
+ },
+ "dc1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    2
+   ],
+   [
+    "u",
+    1
+   ]
+  ],
+  "rev": 0,
+  "revX": [],
+  "rareX": [
+   "ex"
+  ],
+  "rates": {
+   "holo": 1,
+   "ex": 0.333333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "Double Crisis: 4-card packs, 2C, 1U, 1 holo (EX 1 in 3, estimated)",
+  "oneIn": {
+   "holo": 1,
+   "ex": 3
+  }
+ },
+ "xy6": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7
+  }
+ },
+ "xy7": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7
+  }
+ },
+ "xy8": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "brk"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857,
+   "brk": 0.166667
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7,
+   "brk": 6
+  }
+ },
+ "xy9": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "brk"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857,
+   "brk": 0.166667
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7,
+   "brk": 6
+  }
+ },
+ "g1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "rcu",
+   "rc"
+  ],
+  "rareX": [
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "fa": 0.027778,
+   "ex": 0.142857,
+   "rc": 0.333333,
+   "rcu": 0.041667
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "fa": 36,
+   "ex": 7,
+   "rc": 3,
+   "rcu": 24
+  }
+ },
+ "xy10": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "brk"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857,
+   "brk": 0.166667
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7,
+   "brk": 6
+  }
+ },
+ "xy11": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "brk"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857,
+   "brk": 0.166667
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7,
+   "brk": 6
+  }
+ },
+ "xy12": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "brk"
+  ],
+  "rareX": [
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "sec": 0.013889,
+   "fa": 0.027778,
+   "ex": 0.142857,
+   "brk": 0.166667
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; EX/full art/secret replace the rare, BREAK (and Radiant Collection in Generations) replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "sec": 72,
+   "fa": 36,
+   "ex": 7,
+   "brk": 6
+  }
+ },
+ "sm1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7
+  }
+ },
+ "sm2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7
+  }
+ },
+ "sm3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7
+  }
+ },
+ "sm3.5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "shn"
+  ],
+  "rareX": [
+   "rbw",
+   "sec",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "rbw": 0.022222,
+   "sec": 0.013889,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "shn": 0.111111
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "rbw": 45,
+   "sec": 72,
+   "fa": 25,
+   "ex": 7,
+   "shn": 9
+  }
+ },
+ "sm4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7
+  }
+ },
+ "sm5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "prism"
+  ],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "prism": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7,
+   "prism": 12
+  }
+ },
+ "sm6": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "prism"
+  ],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "prism": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7,
+   "prism": 12
+  }
+ },
+ "sm7": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "prism"
+  ],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "prism": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7,
+   "prism": 12
+  }
+ },
+ "sm7.5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "prism"
+  ],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "prism": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7,
+   "prism": 12
+  }
+ },
+ "sm8": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "prism"
+  ],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "prism": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7,
+   "prism": 12
+  }
+ },
+ "sm9": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "prism"
+  ],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.008333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "prism": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 120,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7,
+   "prism": 12
+  }
+ },
+ "det1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    3
+   ]
+  ],
+  "rev": 0,
+  "revX": [],
+  "rareX": [
+   "fa"
+  ],
+  "rates": {
+   "holo": 1,
+   "fa": 0.25
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "Detective Pikachu: 4-card packs, 3 commons + 1 rare (GX 1 in 4, estimated)",
+  "oneIn": {
+   "holo": 1,
+   "fa": 4
+  }
+ },
+ "sm10": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.008333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 120,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7
+  }
+ },
+ "sm11": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.008333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 120,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7
+  }
+ },
+ "sm115": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "svr"
+  ],
+  "rareX": [
+   "rbw",
+   "sec",
+   "svu",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "rbw": 0.022222,
+   "sec": 0.013889,
+   "fa": 0.04,
+   "ex": 0.142857,
+   "svr": 0.25,
+   "svu": 0.083333
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "rbw": 45,
+   "sec": 72,
+   "fa": 25,
+   "ex": 7,
+   "svr": 4,
+   "svu": 12
+  }
+ },
+ "sm12": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.008333,
+   "gold": 0.014286,
+   "rbw": 0.022222,
+   "fa": 0.04,
+   "ex": 0.142857
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; GX/full art/rainbow/gold replace the rare, Prism Star/Shining/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 120,
+   "gold": 70,
+   "rbw": 45,
+   "fa": 25,
+   "ex": 7
+  }
+ },
+ "swsh1": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8
+  }
+ },
+ "swsh2": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8
+  }
+ },
+ "swsh3": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8
+  }
+ },
+ "swsh3.5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8
+  }
+ },
+ "swsh4": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "amz"
+  ],
+  "rareX": [
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125,
+   "amz": 0.05
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8,
+   "amz": 20
+  }
+ },
+ "swsh4.5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "amz",
+   "svr"
+  ],
+  "rareX": [
+   "rbw",
+   "sec",
+   "svu",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "rbw": 0.013889,
+   "sec": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125,
+   "amz": 0.05,
+   "svr": 0.285714,
+   "svu": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "rbw": 72,
+   "sec": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8,
+   "amz": 20,
+   "svr": 4,
+   "svu": 8
+  }
+ },
+ "swsh5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.006667,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 150,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8
+  }
+ },
+ "swsh6": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.006667,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 150,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8
+  }
+ },
+ "swsh8": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.006667,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 150,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8
+  }
+ },
+ "swsh9": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "tgu",
+   "tg"
+  ],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.006667,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125,
+   "tg": 0.083333,
+   "tgu": 0.03125
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 150,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8,
+   "tg": 12,
+   "tgu": 32
+  }
+ },
+ "swsh10": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "rad",
+   "tgu",
+   "tg"
+  ],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.007407,
+   "gold": 0.007692,
+   "rbw": 0.012821,
+   "fa": 0.032258,
+   "vmax": 0.034483,
+   "ex": 0.125,
+   "rad": 0.05,
+   "tg": 0.083333,
+   "tgu": 0.041667
+  },
+  "source": "https://pullrates.com/set/astral-radiance",
+  "estimated": false,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 135,
+   "gold": 130,
+   "rbw": 78,
+   "fa": 31,
+   "vmax": 29,
+   "ex": 8,
+   "rad": 20,
+   "tg": 12,
+   "tgu": 24
+  }
+ },
+ "swsh10.5": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "rad"
+  ],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.006667,
+   "gold": 0.011111,
+   "rbw": 0.013889,
+   "fa": 0.035714,
+   "vmax": 0.0625,
+   "ex": 0.125,
+   "rad": 0.05
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse",
+  "oneIn": {
+   "holo": 3,
+   "alt": 150,
+   "gold": 90,
+   "rbw": 72,
+   "fa": 28,
+   "vmax": 16,
+   "ex": 8,
+   "rad": 20
+  }
+ },
+ "swsh11": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "rad",
+   "tgu",
+   "tg"
+  ],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.004975,
+   "gold": 0.009091,
+   "rbw": 0.0125,
+   "fa": 0.034483,
+   "vmax": 0.043478,
+   "ex": 0.111111,
+   "rad": 0.05,
+   "tg": 0.083333,
+   "tgu": 0.04
+  },
+  "source": "https://pullrates.com/set/lost-origin",
+  "estimated": false,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse. Secret 1 in 49 split rainbow/gold (estimated); TG gold VMAX folded into TG ultra",
+  "oneIn": {
+   "holo": 3,
+   "alt": 201,
+   "gold": 110,
+   "rbw": 80,
+   "fa": 29,
+   "vmax": 23,
+   "ex": 9,
+   "rad": 20,
+   "tg": 12,
+   "tgu": 25
+  }
+ },
+ "swsh12": {
+  "structure": "gen",
+  "slots": [
+   [
+    "c",
+    5
+   ],
+   [
+    "u",
+    3
+   ]
+  ],
+  "rev": 1,
+  "revX": [
+   "rad",
+   "tgu",
+   "tg"
+  ],
+  "rareX": [
+   "alt",
+   "gold",
+   "rbw",
+   "fa",
+   "vmax",
+   "ex"
+  ],
+  "rates": {
+   "holo": 0.333333,
+   "alt": 0.005952,
+   "gold": 0.01,
+   "rbw": 0.013333,
+   "fa": 0.03125,
+   "vmax": 0.037037,
+   "ex": 0.111111,
+   "rad": 0.045455,
+   "tg": 0.083333,
+   "tgu": 0.04
+  },
+  "source": "https://pullrates.com/set/silver-tempest",
+  "estimated": false,
+  "note": "10 cards: 5C, 3U, 1 reverse holo, 1 rare; V/VMAX/VSTAR/full art/alt art/secret replace the rare, Amazing/Radiant/Trainer Gallery/Shiny Vault replace the reverse. Secret 1 in 45 split rainbow/gold (estimated); TG gold VMAX folded into TG ultra",
+  "oneIn": {
+   "holo": 3,
+   "alt": 168,
+   "gold": 100,
+   "rbw": 75,
+   "fa": 32,
+   "vmax": 27,
+   "ex": 9,
+   "rad": 22,
+   "tg": 12,
+   "tgu": 25
+  }
+ },
+ "sv01": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.142857,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.03125,
+   "hr": 0.018519,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 7,
+   "ur": 15,
+   "ir": 13,
+   "sir": 32,
+   "hr": 54
+  },
+  "source": "https://pullrates.com/set/scarlet-and-violet",
+  "estimated": false,
+  "note": "TCGplayer Authentication Center (8,000+ packs)."
+ },
+ "sv02": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.142857,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.03125,
+   "hr": 0.017544,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 7,
+   "ur": 15,
+   "ir": 13,
+   "sir": 32,
+   "hr": 57
+  },
+  "source": "https://pullrates.com/set/paldea-evolved",
+  "estimated": false,
+  "note": "TCGplayer Authentication Center (8,000+ packs)."
+ },
+ "sv04": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.021277,
+   "hr": 0.012195,
+   "ace": 0,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 15,
+   "ir": 13,
+   "sir": 47,
+   "hr": 82
+  },
+  "source": "https://pullrates.com/set/paradox-rift",
+  "estimated": false,
+  "note": "TCGplayer Authentication Center (8,000+ packs)."
+ },
+ "sv05": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.011628,
+   "hr": 0.007194,
+   "ace": 0.05,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 15,
+   "ir": 13,
+   "sir": 86,
+   "hr": 139,
+   "ace": 20
+  },
+  "source": "https://pullrates.com/set/temporal-forces",
+  "estimated": false,
+  "note": "TCGplayer Authentication Center (8,000+ packs)."
+ },
+ "sv06.5": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.066667,
+   "ir": 0.083333,
+   "sir": 0.0125,
+   "hr": 0.008333,
+   "ace": 0.05,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 15,
+   "ir": 12,
+   "sir": 80,
+   "hr": 120,
+   "ace": 20
+  },
+  "source": "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_Trading_Card_Game_expansions",
+  "estimated": true,
+  "note": "No published study; modelled on Temporal Forces / Stellar Crown (estimated)."
+ },
+ "sv07": {
+  "structure": "sv",
+  "rates": {
+   "dr": 0.166667,
+   "ur": 0.066667,
+   "ir": 0.076923,
+   "sir": 0.011111,
+   "hr": 0.007299,
+   "ace": 0.05,
+   "pb": 0,
+   "mb": 0
+  },
+  "oneIn": {
+   "dr": 6,
+   "ur": 15,
+   "ir": 13,
+   "sir": 90,
+   "hr": 137,
+   "ace": 20
+  },
+  "source": "https://pullrates.com/set/stellar-crown",
+  "estimated": false,
+  "note": "TCGplayer Authentication Center (8,000+ packs)."
+ }
+}

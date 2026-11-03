@@ -1,0 +1,1587 @@
+{
+"base4": {
+"serie": "base",
+"n": 130,
+"miss": 0,
+"r": {
+"Rare Holo": 20,
+"Rare": 20,
+"Uncommon": 42,
+"Common": 48
+},
+"rel": "2000-02-24"
+},
+"gym1": {
+"serie": "gym",
+"n": 132,
+"miss": 0,
+"r": {
+"Rare Holo": 19,
+"Rare": 23,
+"Uncommon": 42,
+"Common": 48
+},
+"rel": "2000-08-14"
+},
+"gym2": {
+"serie": "gym",
+"n": 132,
+"miss": 0,
+"r": {
+"Rare Holo": 20,
+"Rare": 21,
+"Uncommon": 42,
+"Common": 49
+},
+"rel": "2000-10-16"
+},
+"neo2": {
+"serie": "neo",
+"n": 75,
+"miss": 0,
+"r": {
+"Rare Holo": 17,
+"Rare": 19,
+"Uncommon": 19,
+"Common": 20
+},
+"rel": "2001-06-01"
+},
+"neo3": {
+"serie": "neo",
+"n": 66,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 13,
+"Uncommon": 17,
+"Common": 20,
+"Rare Secret Shining": 2
+},
+"rel": "2001-09-21"
+},
+"neo4": {
+"serie": "neo",
+"n": 113,
+"miss": 0,
+"r": {
+"Rare Holo": 16,
+"Rare": 19,
+"Uncommon": 37,
+"Common": 33,
+"Rare Secret Shining": 8
+},
+"rel": "2002-02-28"
+},
+"lc": {
+"serie": "lc",
+"n": 110,
+"miss": 0,
+"r": {
+"Rare Holo": 19,
+"Rare": 19,
+"Uncommon": 36,
+"Common": 36
+},
+"rel": "2002-05-24"
+},
+"ecard1": {
+"serie": "ecard",
+"n": 165,
+"miss": 0,
+"r": {
+"Rare Holo": 32,
+"Rare": 40,
+"Uncommon": 38,
+"Common": 55
+},
+"rel": "2002-09-15"
+},
+"ecard2": {
+"serie": "ecard",
+"n": 182,
+"miss": 0,
+"r": {
+"Rare": 48,
+"Uncommon": 48,
+"Common": 51,
+"Rare Holo Crystal": 3,
+"Rare Holo": 32
+},
+"rel": "2003-01-15"
+},
+"ecard3": {
+"serie": "ecard",
+"n": 182,
+"miss": 0,
+"r": {
+"Rare": 35,
+"Uncommon": 36,
+"Common": 73,
+"Rare Holo Crystal": 6,
+"Rare Holo": 32
+},
+"rel": "2003-05-12"
+},
+"ex1": {
+"serie": "ex",
+"n": 109,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 13,
+"Uncommon": 34,
+"Common": 40,
+"Rare Holo ex": 8
+},
+"rel": "2003-07-01"
+},
+"ex2": {
+"serie": "ex",
+"n": 100,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 13,
+"Uncommon": 33,
+"Common": 33,
+"Rare Holo ex": 7
+},
+"rel": "2003-09-18"
+},
+"ex3": {
+"serie": "ex",
+"n": 100,
+"miss": 0,
+"r": {
+"Rare Holo": 12,
+"Rare": 10,
+"Uncommon": 33,
+"Common": 33,
+"Rare Holo ex": 9,
+"Rare Secret": 3
+},
+"rel": "2003-11-24"
+},
+"ex4": {
+"serie": "ex",
+"n": 97,
+"miss": 0,
+"r": {
+"Rare Holo": 12,
+"Rare": 12,
+"Uncommon": 32,
+"Common": 32,
+"Rare Holo ex": 7,
+"Rare Secret": 2
+},
+"rel": "2004-03-01"
+},
+"ex5": {
+"serie": "ex",
+"n": 102,
+"miss": 0,
+"r": {
+"Rare Holo": 15,
+"Rare": 12,
+"Uncommon": 33,
+"Common": 32,
+"Rare Holo ex": 9,
+"Rare Secret": 1
+},
+"rel": "2004-06-01"
+},
+"ex6": {
+"serie": "ex",
+"n": 116,
+"miss": 0,
+"r": {
+"Rare Holo": 17,
+"Rare": 14,
+"Uncommon": 36,
+"Common": 36,
+"Rare Holo ex": 12,
+"Rare Secret": 1
+},
+"rel": "2004-09-01"
+},
+"ex7": {
+"serie": "ex",
+"n": 111,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 14,
+"Uncommon": 35,
+"Common": 32,
+"Rare Holo ex": 11,
+"Rare Holo Gold Star": 3,
+"Rare Secret": 2
+},
+"rel": "2004-11-01"
+},
+"ex8": {
+"serie": "ex",
+"n": 108,
+"miss": 0,
+"r": {
+"Rare Holo": 15,
+"Rare": 14,
+"Uncommon": 34,
+"Common": 32,
+"Rare Holo ex": 10,
+"Rare Holo Gold Star": 3
+},
+"rel": "2005-02-01"
+},
+"ex9": {
+"serie": "ex",
+"n": 107,
+"miss": 0,
+"r": {
+"Rare Holo": 17,
+"Rare": 14,
+"Uncommon": 32,
+"Common": 32,
+"Rare Holo ex": 11,
+"Rare Secret": 1
+},
+"rel": "2005-05-09"
+},
+"ex10": {
+"serie": "ex",
+"n": 117,
+"miss": 0,
+"r": {
+"Rare Holo": 19,
+"Rare": 16,
+"Uncommon": 34,
+"Common": 31,
+"Rare Holo ex": 14,
+"Rare Holo Gold Star": 3
+},
+"rel": "2005-08-22"
+},
+"ex11": {
+"serie": "ex",
+"n": 114,
+"miss": 0,
+"r": {
+"Rare Holo": 18,
+"Rare": 20,
+"Uncommon": 35,
+"Common": 34,
+"Rare Holo ex": 3,
+"Rare Holo Gold Star": 3,
+"Rare Secret": 1
+},
+"rel": "2005-10-31"
+},
+"ex12": {
+"serie": "ex",
+"n": 93,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 15,
+"Uncommon": 26,
+"Common": 27,
+"Rare Holo ex": 7,
+"Rare Holo Gold Star": 3,
+"Rare Secret": 1
+},
+"rel": "2006-02-13"
+},
+"ex13": {
+"serie": "ex",
+"n": 111,
+"miss": 0,
+"r": {
+"Rare Holo": 23,
+"Rare": 20,
+"Uncommon": 30,
+"Common": 31,
+"Rare Holo ex": 3,
+"Rare Holo Gold Star": 3,
+"Rare Secret": 1
+},
+"rel": "2006-05-03"
+},
+"ex14": {
+"serie": "ex",
+"n": 100,
+"miss": 0,
+"r": {
+"Rare Holo": 13,
+"Rare": 16,
+"Uncommon": 30,
+"Common": 29,
+"Rare Holo ex": 10,
+"Rare Holo Gold Star": 2
+},
+"rel": "2006-08-30"
+},
+"ex15": {
+"serie": "ex",
+"n": 101,
+"miss": 0,
+"r": {
+"Rare Holo": 12,
+"Rare": 16,
+"Uncommon": 31,
+"Common": 30,
+"Rare Holo ex": 10,
+"Rare Holo Gold Star": 2
+},
+"rel": "2006-11-08"
+},
+"ex16": {
+"serie": "ex",
+"n": 108,
+"miss": 0,
+"r": {
+"Rare Holo": 13,
+"Rare": 21,
+"Uncommon": 31,
+"Common": 32,
+"Rare Holo ex": 8,
+"Rare Holo Gold Star": 3
+},
+"rel": "2007-02-17"
+},
+"dp1": {
+"serie": "dp",
+"n": 130,
+"miss": 0,
+"r": {
+"Rare Holo": 17,
+"Rare": 25,
+"Uncommon": 38,
+"Common": 47,
+"Rare Holo LV.X": 3
+},
+"rel": "2007-05-01"
+},
+"dp2": {
+"serie": "dp",
+"n": 124,
+"miss": 0,
+"r": {
+"Rare Holo": 19,
+"Rare": 23,
+"Uncommon": 37,
+"Common": 42,
+"Rare Holo LV.X": 3
+},
+"rel": "2007-08-01"
+},
+"dp3": {
+"serie": "dp",
+"n": 132,
+"miss": 0,
+"r": {
+"Rare Holo": 20,
+"Rare": 24,
+"Uncommon": 41,
+"Common": 45,
+"Rare Holo LV.X": 2
+},
+"rel": "2007-11-01"
+},
+"dp4": {
+"serie": "dp",
+"n": 106,
+"miss": 0,
+"r": {
+"Rare Holo": 11,
+"Rare": 21,
+"Uncommon": 33,
+"Common": 37,
+"Rare Holo LV.X": 4
+},
+"rel": "2008-02-01"
+},
+"dp5": {
+"serie": "dp",
+"n": 100,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 20,
+"Uncommon": 30,
+"Common": 32,
+"Rare Holo LV.X": 4
+},
+"rel": "2008-05-01"
+},
+"dp6": {
+"serie": "dp",
+"n": 146,
+"miss": 0,
+"r": {
+"Rare Holo": 17,
+"Rare": 28,
+"Uncommon": 46,
+"Common": 48,
+"Rare Holo LV.X": 7
+},
+"rel": "2008-08-01"
+},
+"dp7": {
+"serie": "dp",
+"n": 106,
+"miss": 0,
+"r": {
+"Rare Holo": 11,
+"Rare": 20,
+"Uncommon": 33,
+"Common": 31,
+"Rare Holo LV.X": 5,
+"Rare Secret": 6
+},
+"rel": "2008-11-01"
+},
+"pl1": {
+"serie": "pl",
+"n": 133,
+"miss": 0,
+"r": {
+"Rare Holo": 17,
+"Rare": 23,
+"Uncommon": 42,
+"Common": 39,
+"Rare Holo LV.X": 6,
+"Rare Secret": 6
+},
+"rel": "2009-02-11"
+},
+"pl2": {
+"serie": "pl",
+"n": 120,
+"miss": 0,
+"r": {
+"Rare Holo": 19,
+"Rare": 24,
+"Uncommon": 32,
+"Common": 33,
+"Rare Holo LV.X": 9,
+"Rare Secret": 3
+},
+"rel": "2009-05-16"
+},
+"pl3": {
+"serie": "pl",
+"n": 153,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 34,
+"Uncommon": 47,
+"Common": 45,
+"Rare Holo LV.X": 7,
+"Rare Secret": 6
+},
+"rel": "2009-08-19"
+},
+"pl4": {
+"serie": "pl",
+"n": 111,
+"miss": 0,
+"r": {
+"Rare Holo": 21,
+"Rare": 20,
+"Uncommon": 29,
+"Common": 32,
+"Rare Holo LV.X": 6,
+"Rare Secret": 3
+},
+"rel": "2009-11-04"
+},
+"hgss1": {
+"serie": "hgss",
+"n": 124,
+"miss": 0,
+"r": {
+"Rare Holo": 14,
+"Rare": 21,
+"Uncommon": 38,
+"Common": 40,
+"Rare Prime": 6,
+"LEGEND": 4,
+"Rare Secret": 1
+},
+"rel": "2010-02-10"
+},
+"hgss2": {
+"serie": "hgss",
+"n": 96,
+"miss": 0,
+"r": {
+"Rare Holo": 11,
+"Rare": 16,
+"Uncommon": 28,
+"Common": 28,
+"Rare Prime": 6,
+"LEGEND": 6,
+"Rare Secret": 1
+},
+"rel": "2010-05-12"
+},
+"hgss3": {
+"serie": "hgss",
+"n": 91,
+"miss": 0,
+"r": {
+"Rare Holo": 10,
+"Rare": 15,
+"Uncommon": 26,
+"Common": 29,
+"Rare Prime": 6,
+"LEGEND": 4,
+"Rare Secret": 1
+},
+"rel": "2010-08-18"
+},
+"hgss4": {
+"serie": "hgss",
+"n": 103,
+"miss": 0,
+"r": {
+"Rare Holo": 12,
+"Rare": 19,
+"Uncommon": 29,
+"Common": 30,
+"Rare Prime": 8,
+"LEGEND": 4,
+"Rare Secret": 1
+},
+"rel": "2010-11-03"
+},
+"col1": {
+"serie": "col",
+"n": 106,
+"miss": 0,
+"r": {
+"Rare Holo": 22,
+"Rare": 17,
+"Uncommon": 25,
+"Common": 31,
+"Shiny Rare": 11
+},
+"rel": "2011-02-09"
+},
+"bw1": {
+"serie": "bw",
+"n": 115,
+"miss": 0,
+"r": {
+"Common": 45,
+"Uncommon": 36,
+"Rare Holo": 12,
+"Rare": 19,
+"Rare Ultra": 2,
+"Rare Secret": 1
+},
+"rel": "2011-04-25"
+},
+"bw2": {
+"serie": "bw",
+"n": 98,
+"miss": 0,
+"r": {
+"Common": 33,
+"Rare": 21,
+"Uncommon": 32,
+"Rare Holo": 10,
+"Rare Ultra": 2
+},
+"rel": "2011-08-31"
+},
+"bw3": {
+"serie": "bw",
+"n": 102,
+"miss": 0,
+"r": {
+"Common": 31,
+"Uncommon": 30,
+"Rare Holo": 13,
+"Rare": 22,
+"Rare Ultra": 5,
+"Rare Secret": 1
+},
+"rel": "2011-11-16"
+},
+"bw4": {
+"serie": "bw",
+"n": 103,
+"miss": 0,
+"r": {
+"Rare": 21,
+"Common": 29,
+"Uncommon": 26,
+"Rare Holo EX": 6,
+"Rare Holo": 10,
+"Rare Prism Star": 1,
+"Rare Ultra": 6,
+"Rare Secret": 4
+},
+"rel": "2012-02-08"
+},
+"bw5": {
+"serie": "bw",
+"n": 111,
+"miss": 0,
+"r": {
+"Common": 33,
+"Uncommon": 35,
+"Rare Holo": 9,
+"Rare": 19,
+"Rare Holo EX": 6,
+"Rare Ultra": 6,
+"Rare Secret": 3
+},
+"rel": "2012-05-09"
+},
+"bw6": {
+"serie": "bw",
+"n": 128,
+"miss": 0,
+"r": {
+"Common": 39,
+"Uncommon": 36,
+"Rare": 24,
+"Rare Holo": 13,
+"Rare Holo EX": 6,
+"Rare Ultra": 6,
+"Rare Secret": 4
+},
+"rel": "2012-08-15"
+},
+"dv1": {
+"serie": "bw",
+"n": 21,
+"miss": 0,
+"r": {
+"Rare Holo": 21
+},
+"rel": "2012-10-05"
+},
+"bw7": {
+"serie": "bw",
+"n": 153,
+"miss": 0,
+"r": {
+"Common": 51,
+"Uncommon": 42,
+"Rare Holo": 20,
+"Rare": 17,
+"Rare Holo EX": 6,
+"ACE SPEC Rare": 4,
+"Rare Ultra": 9,
+"Rare Secret": 4
+},
+"rel": "2012-11-07"
+},
+"bw8": {
+"serie": "bw",
+"n": 138,
+"miss": 0,
+"r": {
+"Common": 41,
+"Uncommon": 42,
+"Rare": 26,
+"Rare Holo EX": 8,
+"Rare Holo": 10,
+"ACE SPEC Rare": 3,
+"Rare Ultra": 5,
+"Rare Secret": 3
+},
+"rel": "2013-02-06"
+},
+"bw9": {
+"serie": "bw",
+"n": 122,
+"miss": 0,
+"r": {
+"Common": 32,
+"Uncommon": 32,
+"Rare": 22,
+"Rare Holo": 14,
+"Rare Holo EX": 6,
+"ACE SPEC Rare": 2,
+"Rare Ultra": 8,
+"Rare Secret": 6
+},
+"rel": "2013-05-08"
+},
+"bw10": {
+"serie": "bw",
+"n": 105,
+"miss": 0,
+"r": {
+"Common": 26,
+"Rare": 15,
+"Uncommon": 33,
+"Rare Holo EX": 6,
+"Rare Holo": 11,
+"ACE SPEC Rare": 4,
+"Rare Ultra": 6,
+"Rare Secret": 4
+},
+"rel": "2013-08-14"
+},
+"bw11": {
+"serie": "bw",
+"n": 140,
+"miss": 0,
+"r": {
+"Common": 27,
+"Rare": 12,
+"Uncommon": 32,
+"Rare Holo": 30,
+"Rare Holo EX": 12,
+"Rare Secret": 2,
+"RC Rare Holo": 19,
+"RC Rare Ultra": 6
+},
+"rel": "2013-11-06"
+},
+"xy1": {
+"serie": "xy",
+"n": 146,
+"miss": 0,
+"r": {
+"Rare Holo EX": 8,
+"Common": 48,
+"Uncommon": 42,
+"Rare": 26,
+"Rare Holo": 16,
+"Rare Ultra": 6
+},
+"rel": "2014-02-05"
+},
+"xy2": {
+"serie": "xy",
+"n": 110,
+"miss": 1,
+"r": {
+"Common": 31,
+"Uncommon": 33,
+"Rare": 20,
+"Rare Holo": 8,
+"Rare Holo EX": 8,
+"Rare Ultra": 7,
+"Rare Secret": 3
+},
+"rel": "2014-05-07"
+},
+"xy3": {
+"serie": "xy",
+"n": 114,
+"miss": 1,
+"r": {
+"Common": 29,
+"Uncommon": 39,
+"Rare Holo": 9,
+"Rare Holo EX": 7,
+"Rare": 21,
+"Rare Ultra": 7,
+"Rare Secret": 2
+},
+"rel": "2014-08-13"
+},
+"xy4": {
+"serie": "xy",
+"n": 124,
+"miss": 2,
+"r": {
+"Common": 34,
+"Rare": 21,
+"Uncommon": 37,
+"Rare Holo": 14,
+"Rare Holo EX": 8,
+"Rare Ultra": 7,
+"Rare Secret": 3
+},
+"rel": "2014-11-05"
+},
+"xy5": {
+"serie": "xy",
+"n": 164,
+"miss": 0,
+"r": {
+"Common": 39,
+"Uncommon": 50,
+"Rare": 25,
+"Rare Holo": 18,
+"Rare Holo EX": 12,
+"Rare Ultra": 16,
+"Rare Secret": 4
+},
+"rel": "2015-02-04"
+},
+"dc1": {
+"serie": "xy",
+"n": 34,
+"miss": 0,
+"r": {
+"Common": 14,
+"Rare Holo": 6,
+"Rare Holo EX": 2,
+"Uncommon": 12
+},
+"rel": "2015-03-25"
+},
+"xy6": {
+"serie": "xy",
+"n": 112,
+"miss": 2,
+"r": {
+"Common": 26,
+"Uncommon": 33,
+"Rare Holo": 10,
+"Rare": 19,
+"Rare Holo EX": 11,
+"Rare Ultra": 11,
+"Rare Secret": 2
+},
+"rel": "2015-05-06"
+},
+"xy7": {
+"serie": "xy",
+"n": 101,
+"miss": 1,
+"r": {
+"Common": 23,
+"Uncommon": 29,
+"Rare": 13,
+"Rare Holo EX": 11,
+"Rare Holo": 8,
+"Rare Ultra": 12,
+"Rare Secret": 5
+},
+"rel": "2015-08-12"
+},
+"xy8": {
+"serie": "xy",
+"n": 165,
+"miss": 1,
+"r": {
+"Common": 53,
+"Rare": 22,
+"Uncommon": 48,
+"Rare Holo": 16,
+"Rare BREAK": 6,
+"Rare Holo EX": 8,
+"Rare Ultra": 10,
+"Rare Secret": 2
+},
+"rel": "2015-11-04"
+},
+"xy9": {
+"serie": "xy",
+"n": 126,
+"miss": 3,
+"r": {
+"Common": 33,
+"Uncommon": 44,
+"Rare Holo": 7,
+"Rare": 16,
+"Rare Holo EX": 11,
+"Rare BREAK": 5,
+"Rare Ultra": 9,
+"Rare Secret": 1
+},
+"rel": "2016-02-03"
+},
+"g1": {
+"serie": "xy",
+"n": 117,
+"miss": 2,
+"r": {
+"Rare Holo EX": 12,
+"Common": 28,
+"Uncommon": 26,
+"Rare Holo": 5,
+"Rare": 12,
+"Rare Ultra": 2,
+"RC Rare Holo": 25,
+"RC Rare Ultra": 7
+},
+"rel": "2016-02-22"
+},
+"xy10": {
+"serie": "xy",
+"n": 129,
+"miss": 4,
+"r": {
+"Uncommon": 47,
+"Common": 26,
+"Rare": 22,
+"Rare Holo": 5,
+"Rare BREAK": 5,
+"Rare Holo EX": 13,
+"Rare Ultra": 10,
+"Rare Secret": 1
+},
+"rel": "2016-05-02"
+},
+"xy11": {
+"serie": "xy",
+"n": 116,
+"miss": 0,
+"r": {
+"Common": 31,
+"Uncommon": 30,
+"Rare": 23,
+"Rare BREAK": 7,
+"Rare Holo": 9,
+"Rare Holo EX": 6,
+"Rare Ultra": 8,
+"Rare Secret": 2
+},
+"rel": "2016-08-03"
+},
+"xy12": {
+"serie": "xy",
+"n": 113,
+"miss": 0,
+"r": {
+"Rare Holo EX": 12,
+"Common": 33,
+"Uncommon": 28,
+"Rare": 9,
+"Rare Holo": 13,
+"Rare BREAK": 4,
+"Rare Ultra": 9,
+"Rare Secret": 5
+},
+"rel": "2016-11-02"
+},
+"sm1": {
+"serie": "sm",
+"n": 172,
+"miss": 9,
+"r": {
+"Common": 53,
+"Uncommon": 49,
+"Rare": 17,
+"Rare Holo GX": 11,
+"Rare Holo": 16,
+"Rare Ultra": 12,
+"Rare Rainbow": 8,
+"Rare Secret Gold": 6
+},
+"rel": "2017-02-03"
+},
+"sm2": {
+"serie": "sm",
+"n": 169,
+"miss": 0,
+"r": {
+"Common": 40,
+"Uncommon": 38,
+"Rare": 25,
+"Rare Holo": 15,
+"Rare Holo GX": 12,
+"Rare Ultra": 15,
+"Rare Rainbow": 15,
+"Rare Secret Gold": 9
+},
+"rel": "2017-05-05"
+},
+"sm3": {
+"serie": "sm",
+"n": 169,
+"miss": 0,
+"r": {
+"Common": 39,
+"Uncommon": 39,
+"Rare": 25,
+"Rare Holo": 13,
+"Rare Holo GX": 12,
+"Rare Ultra": 19,
+"Rare Rainbow": 13,
+"Rare Secret Gold": 9
+},
+"rel": "2017-08-04"
+},
+"sm3.5": {
+"serie": "sm",
+"n": 78,
+"miss": 0,
+"r": {
+"Common": 23,
+"Uncommon": 25,
+"Rare Holo": 12,
+"Rare Shining": 6,
+"Rare Holo GX": 4,
+"Rare Ultra": 3,
+"Rare Rainbow": 4,
+"Rare Secret": 1
+},
+"rel": "2017-10-06"
+},
+"sm4": {
+"serie": "sm",
+"n": 125,
+"miss": 1,
+"r": {
+"Common": 34,
+"Uncommon": 26,
+"Rare": 21,
+"Rare Holo": 12,
+"Rare Holo GX": 8,
+"Rare Ultra": 11,
+"Rare Rainbow": 8,
+"Rare Secret Gold": 5
+},
+"rel": "2017-11-03"
+},
+"sm5": {
+"serie": "sm",
+"n": 173,
+"miss": 0,
+"r": {
+"Common": 45,
+"Uncommon": 44,
+"Rare": 23,
+"Rare Holo": 13,
+"Rare Holo GX": 7,
+"Rare Prism Star": 6,
+"Rare Ultra": 18,
+"Rare Rainbow": 11,
+"Rare Secret Gold": 6
+},
+"rel": "2018-02-02"
+},
+"sm6": {
+"serie": "sm",
+"n": 146,
+"miss": 0,
+"r": {
+"Common": 33,
+"Rare": 24,
+"Uncommon": 36,
+"Rare Holo": 12,
+"Rare Holo GX": 8,
+"Rare Prism Star": 5,
+"Rare Ultra": 13,
+"Rare Rainbow": 9,
+"Rare Secret Gold": 6
+},
+"rel": "2018-05-04"
+},
+"sm7": {
+"serie": "sm",
+"n": 183,
+"miss": 0,
+"r": {
+"Common": 40,
+"Uncommon": 62,
+"Rare Holo": 18,
+"Rare": 17,
+"Rare Holo GX": 11,
+"Rare Prism Star": 3,
+"Rare Ultra": 17,
+"Rare Rainbow": 9,
+"Rare Secret Gold": 6
+},
+"rel": "2018-08-03"
+},
+"sm7.5": {
+"serie": "sm",
+"n": 78,
+"miss": 0,
+"r": {
+"Common": 23,
+"Uncommon": 23,
+"Rare Holo": 10,
+"Rare Prism Star": 2,
+"Rare Holo GX": 6,
+"Rare Ultra": 6,
+"Rare Rainbow": 5,
+"Rare Secret Gold": 3
+},
+"rel": "2018-09-07"
+},
+"sm8": {
+"serie": "sm",
+"n": 236,
+"miss": 0,
+"r": {
+"Common": 56,
+"Rare": 38,
+"Uncommon": 59,
+"Rare Holo": 21,
+"Rare Holo GX": 13,
+"Rare Prism Star": 7,
+"Rare Ultra": 20,
+"Rare Rainbow": 13,
+"Rare Secret Gold": 9
+},
+"rel": "2018-11-02"
+},
+"sm9": {
+"serie": "sm",
+"n": 196,
+"miss": 0,
+"r": {
+"Rare Holo GX": 11,
+"Common": 45,
+"Uncommon": 48,
+"Rare": 31,
+"Rare Prism Star": 4,
+"Rare Holo": 19,
+"Rare Ultra": 20,
+"Rare Ultra Alternate Art": 3,
+"Rare Rainbow": 10,
+"Rare Secret Gold": 5
+},
+"rel": "2019-01-31"
+},
+"det1": {
+"serie": "sm",
+"n": 18,
+"miss": 0,
+"r": {
+"Common": 8,
+"Rare": 6,
+"Rare Ultra": 4
+},
+"rel": "2019-03-29"
+},
+"sm10": {
+"serie": "sm",
+"n": 234,
+"miss": 0,
+"r": {
+"Rare Holo GX": 14,
+"Common": 62,
+"Uncommon": 53,
+"Rare": 39,
+"Rare Holo": 22,
+"Rare Ultra": 21,
+"Rare Ultra Alternate Art": 3,
+"Rare Rainbow": 14,
+"Rare Secret Gold": 6
+},
+"rel": "2019-05-03"
+},
+"sm11": {
+"serie": "sm",
+"n": 258,
+"miss": 0,
+"r": {
+"Rare Holo GX": 17,
+"Common": 65,
+"Uncommon": 72,
+"Rare Holo": 21,
+"Rare": 38,
+"Rare Ultra": 19,
+"Rare Ultra Alternate Art": 4,
+"Rare Rainbow": 13,
+"Rare Secret Gold": 9
+},
+"rel": "2019-08-02"
+},
+"sm115": {
+"serie": "sm",
+"n": 163,
+"miss": 0,
+"r": {
+"Common": 18,
+"Uncommon": 17,
+"Rare": 15,
+"Rare Holo GX": 9,
+"Rare Holo": 6,
+"Rare Ultra": 3,
+"Rare Rainbow": 1,
+"Shiny Rare": 51,
+"Shiny Ultra Rare": 35,
+"Rare Secret": 8
+},
+"rel": "2019-08-23"
+},
+"sm12": {
+"serie": "sm",
+"n": 271,
+"miss": 0,
+"r": {
+"Rare Holo GX": 16,
+"Common": 67,
+"Uncommon": 66,
+"Rare": 38,
+"Rare Holo": 22,
+"Rare Ultra": 23,
+"Rare Ultra Alternate Art": 4,
+"Rare Rainbow": 26,
+"Rare Secret Gold": 9
+},
+"rel": "2019-11-01"
+},
+"swsh1": {
+"serie": "swsh",
+"n": 216,
+"miss": 0,
+"r": {
+"Holo Rare V": 17,
+"Common": 60,
+"Rare": 32,
+"Uncommon": 56,
+"Rare Holo": 15,
+"Rare Ultra": 18,
+"Holo Rare VMAX": 4,
+"Rare Rainbow": 10,
+"Rare Secret Gold": 4
+},
+"rel": "2020-02-07"
+},
+"swsh2": {
+"serie": "swsh",
+"n": 209,
+"miss": 0,
+"r": {
+"Common": 50,
+"Uncommon": 51,
+"Rare": 32,
+"Holo Rare V": 16,
+"Holo Rare VMAX": 7,
+"Rare Holo": 18,
+"Rare Ultra": 18,
+"Rare Rainbow": 13,
+"Rare Secret Gold": 4
+},
+"rel": "2020-05-01"
+},
+"swsh3": {
+"serie": "swsh",
+"n": 201,
+"miss": 0,
+"r": {
+"Holo Rare V": 14,
+"Holo Rare VMAX": 7,
+"Common": 53,
+"Uncommon": 50,
+"Rare": 34,
+"Rare Holo": 18,
+"Rare Ultra": 13,
+"Rare Rainbow": 9,
+"Rare Secret Gold": 3
+},
+"rel": "2020-08-14"
+},
+"swsh3.5": {
+"serie": "swsh",
+"n": 80,
+"miss": 0,
+"r": {
+"Holo Rare V": 11,
+"Common": 21,
+"Uncommon": 23,
+"Rare Holo": 10,
+"Holo Rare VMAX": 3,
+"Rare Ultra": 5,
+"Rare Rainbow": 6,
+"Rare Secret Gold": 1
+},
+"rel": "2020-09-25"
+},
+"swsh4": {
+"serie": "swsh",
+"n": 203,
+"miss": 0,
+"r": {
+"Common": 44,
+"Uncommon": 46,
+"Rare": 33,
+"Amazing Rare": 6,
+"Rare Holo": 19,
+"Holo Rare V": 11,
+"Holo Rare VMAX": 6,
+"Rare Ultra": 20,
+"Rare Rainbow": 14,
+"Rare Secret Gold": 4
+},
+"rel": "2020-11-13"
+},
+"swsh4.5": {
+"serie": "swsh",
+"n": 195,
+"miss": 0,
+"r": {
+"Common": 18,
+"Rare": 8,
+"Uncommon": 13,
+"Rare Holo": 7,
+"Rare Ultra": 11,
+"Amazing Rare": 3,
+"Holo Rare V": 7,
+"Holo Rare VMAX": 5,
+"Rare Rainbow": 1,
+"Shiny Rare": 104,
+"Shiny Ultra Rare": 16,
+"Rare Secret": 2
+},
+"rel": "2021-02-19"
+},
+"swsh5": {
+"serie": "swsh",
+"n": 183,
+"miss": 0,
+"r": {
+"Common": 41,
+"Uncommon": 46,
+"Rare": 20,
+"Holo Rare V": 12,
+"Rare Holo": 16,
+"Holo Rare VMAX": 6,
+"Rare Ultra": 18,
+"Rare Ultra Alternate Art": 4,
+"Rare Rainbow": 16,
+"Rare Secret Gold": 4
+},
+"rel": "2021-03-19"
+},
+"swsh6": {
+"serie": "swsh",
+"n": 233,
+"miss": 0,
+"r": {
+"Common": 43,
+"Uncommon": 46,
+"Rare Holo": 24,
+"Holo Rare V": 15,
+"Holo Rare VMAX": 8,
+"Rare": 23,
+"Rare Ultra": 29,
+"Rare Ultra Alternate Art": 10,
+"Rare Rainbow": 26,
+"Rare Secret Gold": 9
+},
+"rel": "2021-06-18"
+},
+"swsh8": {
+"serie": "swsh",
+"n": 284,
+"miss": 0,
+"r": {
+"Common": 89,
+"Uncommon": 83,
+"Rare Holo": 13,
+"Holo Rare V": 19,
+"Rare": 32,
+"Holo Rare VMAX": 8,
+"Rare Ultra Alternate Art": 5,
+"Rare Ultra": 15,
+"Rare Rainbow": 16,
+"Rare Secret Gold": 4
+},
+"rel": "2021-11-12"
+},
+"swsh9": {
+"serie": "swsh",
+"n": 216,
+"miss": 0,
+"r": {
+"Common": 42,
+"Uncommon": 46,
+"Rare": 26,
+"Rare Holo": 10,
+"Holo Rare V": 20,
+"Holo Rare VSTAR": 4,
+"Holo Rare VMAX": 3,
+"Rare Ultra": 17,
+"Rare Ultra Alternate Art": 4,
+"Rare Rainbow": 12,
+"Rare Secret Gold": 4,
+"Trainer Gallery Rare Holo": 12,
+"Trainer Gallery Rare Ultra": 16
+},
+"rel": "2022-02-25"
+},
+"swsh10": {
+"serie": "swsh",
+"n": 246,
+"miss": 0,
+"r": {
+"Holo Rare V": 18,
+"Common": 40,
+"Uncommon": 47,
+"Rare": 21,
+"Rare Holo": 20,
+"Holo Rare VSTAR": 7,
+"Holo Rare VMAX": 2,
+"Radiant Rare": 3,
+"Rare Ultra": 25,
+"Rare Ultra Alternate Art": 6,
+"Rare Rainbow": 21,
+"Rare Secret Gold": 8,
+"Trainer Gallery Rare Holo": 12,
+"Trainer Gallery Rare Ultra": 16
+},
+"rel": "2022-05-27"
+},
+"swsh10.5": {
+"serie": "swsh",
+"n": 88,
+"miss": 0,
+"r": {
+"Common": 22,
+"Uncommon": 20,
+"Rare Holo": 16,
+"Radiant Rare": 3,
+"Holo Rare V": 6,
+"Holo Rare VSTAR": 2,
+"Holo Rare VMAX": 1,
+"Rare Ultra": 6,
+"Rare Ultra Alternate Art": 2,
+"Rare Rainbow": 8,
+"Rare Secret Gold": 2
+},
+"rel": "2022-07-01"
+},
+"swsh11": {
+"serie": "swsh",
+"n": 247,
+"miss": 0,
+"r": {
+"Common": 49,
+"Uncommon": 50,
+"Rare Holo": 22,
+"Rare": 28,
+"Holo Rare V": 12,
+"Holo Rare VMAX": 1,
+"Holo Rare VSTAR": 6,
+"Radiant Rare": 3,
+"Rare Ultra": 21,
+"Rare Ultra Alternate Art": 4,
+"Rare Rainbow": 17,
+"Rare Secret Gold": 6,
+"Trainer Gallery Rare Holo": 11,
+"Trainer Gallery Rare Ultra": 17
+},
+"rel": "2022-09-09"
+},
+"swsh12": {
+"serie": "swsh",
+"n": 245,
+"miss": 0,
+"r": {
+"Common": 53,
+"Uncommon": 56,
+"Rare Holo": 14,
+"Holo Rare V": 15,
+"Holo Rare VSTAR": 6,
+"Rare": 21,
+"Radiant Rare": 3,
+"Holo Rare VMAX": 1,
+"Rare Ultra": 22,
+"Rare Ultra Alternate Art": 4,
+"Rare Rainbow": 16,
+"Rare Secret Gold": 6,
+"Trainer Gallery Rare Holo": 11,
+"Trainer Gallery Rare Ultra": 17
+},
+"rel": "2022-11-11"
+},
+"sv01": {
+"serie": "sv",
+"n": 258,
+"miss": 0,
+"r": {
+"Common": 105,
+"Uncommon": 60,
+"Rare": 21,
+"Double rare": 12,
+"Illustration rare": 24,
+"Ultra Rare": 20,
+"Special illustration rare": 10,
+"Hyper rare": 6
+},
+"rel": "2023-03-31"
+},
+"sv02": {
+"serie": "sv",
+"n": 279,
+"miss": 0,
+"r": {
+"Common": 81,
+"Uncommon": 70,
+"Rare": 25,
+"Double rare": 17,
+"Illustration rare": 36,
+"Ultra Rare": 26,
+"Special illustration rare": 15,
+"Hyper rare": 9
+},
+"rel": "2023-06-09"
+},
+"sv04": {
+"serie": "sv",
+"n": 266,
+"miss": 0,
+"r": {
+"Common": 81,
+"Uncommon": 54,
+"Double rare": 20,
+"Rare": 27,
+"Illustration rare": 34,
+"Ultra Rare": 28,
+"Special illustration rare": 15,
+"Hyper rare": 7
+},
+"rel": "2023-11-03"
+},
+"sv05": {
+"serie": "sv",
+"n": 218,
+"miss": 0,
+"r": {
+"Common": 71,
+"Uncommon": 55,
+"Double rare": 15,
+"Rare": 14,
+"ACE SPEC Rare": 7,
+"Illustration rare": 22,
+"Ultra Rare": 18,
+"Special illustration rare": 10,
+"Hyper rare": 6
+},
+"rel": "2024-03-22"
+},
+"sv06.5": {
+"serie": "sv",
+"n": 99,
+"miss": 0,
+"r": {
+"Common": 28,
+"Uncommon": 20,
+"Rare": 7,
+"Double rare": 6,
+"ACE SPEC Rare": 3,
+"Illustration rare": 15,
+"Ultra Rare": 10,
+"Special illustration rare": 5,
+"Hyper rare": 5
+},
+"rel": "2024-08-02"
+},
+"sv07": {
+"serie": "sv",
+"n": 175,
+"miss": 0,
+"r": {
+"Double rare": 14,
+"Common": 71,
+"Rare": 15,
+"Uncommon": 39,
+"ACE SPEC Rare": 3,
+"Illustration rare": 13,
+"Ultra Rare": 11,
+"Special illustration rare": 6,
+"Hyper rare": 3
+},
+"rel": "2024-09-13"
+}
+}

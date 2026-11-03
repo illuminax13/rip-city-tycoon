@@ -1,0 +1,69 @@
+{
+ "url": "https://illuminax13.github.io/pokemon-pack-simulator/",
+ "when": "2026-10-17T05:11:45.995Z",
+ "pickerTiles_ms": 915,
+ "loadEvent_ms": 9218,
+ "pickerInteractive_ms": 9221,
+ "coldBytes": 1651484,
+ "coldReqs": 39,
+ "coldLongTasks": {
+  "n": 1,
+  "total": 111
+ },
+ "setLoad_ms": 394,
+ "spinFrames": {
+  "n": 133,
+  "mean": 23.8,
+  "p95": 33.4,
+  "max": 83.3,
+  "janky": 1
+ },
+ "tapToTear_ms": 44,
+ "tearFrames": {
+  "n": 25,
+  "mean": 109.9,
+  "p95": 216.7,
+  "max": 699.9,
+  "janky": 22
+ },
+ "tearLatency": {
+  "n": 24,
+  "mean": 192.7,
+  "p95": 750.5,
+  "max": 887.2,
+  "janky": 24
+ },
+ "ripToStack_ms": 1829,
+ "stackImgsReady_ms": 354,
+ "flipFrames": {
+  "n": 234,
+  "mean": 36,
+  "p95": 66.7,
+  "max": 133.4,
+  "janky": 28
+ },
+ "shelfReady_ms": 311,
+ "binderOpen_ms": 646,
+ "pageTurnFrames": {
+  "n": 30,
+  "mean": 29.6,
+  "p95": 66.5,
+  "max": 283.4,
+  "janky": 2
+ },
+ "after20": {
+  "heapMB": 2.8,
+  "nodes": 1860,
+  "listeners": 357,
+  "lsKB": 266
+ },
+ "totalLongTasks": {
+  "n": 2,
+  "total": 163
+ },
+ "totalBytes": 1651484,
+ "totalReqs": 162,
+ "warmTiles_ms": 298,
+ "warmBytes": 0,
+ "warmReqs": 118
+}

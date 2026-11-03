@@ -1,0 +1,43 @@
+binders
+box@36-pack
+box@real products
+box@lorcana
+cardimg
+flow@Base Set
+flow@Jungle
+flow@Fossil
+flow@Evolving Skies|Scarlet|Surging
+flow@Prismatic|Pitch Black|Team Rocket
+flow@Celebrations|Crown Zenith|30th
+flow@swipe spin|God pack
+lorcana
+newsets
+offline-new
+persistence
+pullrates
+rarity
+sound
+sw-a11y@service worker|a11y basics|rapid double|back mid
+sw-a11y@resize
+sw-a11y@image fallbacks
+sw-a11y@20 pack
+sw-a11y@offline after|versioned|wide desktop
+tilt
+value@pack summary
+value@missing price
+value@best pull
+zoom
+zz-box3dshot
+achievements@first pack|backfill
+achievements@toast queue|god pack
+achievements@Open All
+achievements@binder
+zz-boxshot
+zz-foil
+gold
+zz-lorshots
+zz-shots
+zz-valueshot
+zz-zoomshot
+zz-achshot
+zz-screens

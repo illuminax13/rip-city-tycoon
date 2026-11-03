@@ -1,0 +1,753 @@
+{
+"art": {
+"base4": [
+"assets/packs/base4/gyarados.webp",
+"assets/packs/base4/pidgeot.webp",
+"assets/packs/base4/mewtwo.webp",
+"assets/packs/base4/raichu.webp"
+],
+"gym1": [
+"assets/packs/gym1/erika.webp",
+"assets/packs/gym1/misty.webp",
+"assets/packs/gym1/brock.webp",
+"assets/packs/gym1/lt-surge.webp"
+],
+"gym2": [
+"assets/packs/gym2/giovanni.webp",
+"assets/packs/gym2/blaine.webp",
+"assets/packs/gym2/koga.webp",
+"assets/packs/gym2/sabrina.webp"
+],
+"neo2": [
+"assets/packs/neo2/smeargle.webp",
+"assets/packs/neo2/umbreon.webp",
+"assets/packs/neo2/scizor.webp",
+"assets/packs/neo2/xatu.webp"
+],
+"neo3": [
+"assets/packs/neo3/misdreavus.webp",
+"assets/packs/neo3/suicune.webp",
+"assets/packs/neo3/raikou.webp",
+"assets/packs/neo3/entei.webp"
+],
+"neo4": [
+"assets/packs/neo4/tyranitar.webp",
+"assets/packs/neo4/togetic.webp",
+"assets/packs/neo4/noctowl.webp",
+"assets/packs/neo4/celebi.webp"
+],
+"lc": [
+"assets/packs/lc/eeveelution.webp",
+"assets/packs/lc/mewtwo.webp"
+],
+"ecard1": [
+"assets/packs/ecard1/feraligatr.webp",
+"assets/packs/ecard1/venusaur.webp",
+"assets/packs/ecard1/blastoise.webp",
+"assets/packs/ecard1/charizard.webp"
+],
+"ecard2": [
+"assets/packs/ecard2/tyranitar.webp",
+"assets/packs/ecard2/arcanine.webp",
+"assets/packs/ecard2/scizor.webp",
+"assets/packs/ecard2/entei.webp"
+],
+"ecard3": [
+"assets/packs/ecard3/poliwrath.webp",
+"assets/packs/ecard3/kabutops.webp",
+"assets/packs/ecard3/vaporeon.webp",
+"assets/packs/ecard3/ho-oh.webp"
+],
+"ex1": [
+"assets/packs/ex1/mightyena.webp",
+"assets/packs/ex1/manectric.webp",
+"assets/packs/ex1/lairon.webp",
+"assets/packs/ex1/sceptile.webp"
+],
+"ex2": [
+"assets/packs/ex2/dusclops.webp",
+"assets/packs/ex2/zangoose.webp",
+"assets/packs/ex2/seviper.webp",
+"assets/packs/ex2/shiftry.webp"
+],
+"ex3": [
+"assets/packs/ex3/rayquaza.webp",
+"assets/packs/ex3/latias.webp",
+"assets/packs/ex3/latios.webp",
+"assets/packs/ex3/absol.webp"
+],
+"ex4": [
+"assets/packs/ex4/sharpedo.webp",
+"assets/packs/ex4/houndoom.webp",
+"assets/packs/ex4/walrein.webp",
+"assets/packs/ex4/aggron.webp"
+],
+"ex5": [
+"assets/packs/ex5/registeel.webp",
+"assets/packs/ex5/metagross.webp",
+"assets/packs/ex5/regirock.webp",
+"assets/packs/ex5/regice.webp"
+],
+"ex6": [
+"assets/packs/ex6/blastoise.webp",
+"assets/packs/ex6/charizard.webp",
+"assets/packs/ex6/venusaur.webp",
+"assets/packs/ex6/pikachu.webp"
+],
+"ex7": [
+"assets/packs/ex7/tyranitar.webp",
+"assets/packs/ex7/gyarados.webp",
+"assets/packs/ex7/scyther.webp",
+"assets/packs/ex7/mewtwo.webp"
+],
+"ex8": [
+"assets/packs/ex8/rayquaza.webp",
+"assets/packs/ex8/deoxys-attack.webp",
+"assets/packs/ex8/deoxys-defense.webp",
+"assets/packs/ex8/deoxys-normal.webp"
+],
+"ex9": [
+"assets/packs/ex9/rayquaza.webp",
+"assets/packs/ex9/groudon.webp",
+"assets/packs/ex9/kyogre.webp",
+"assets/packs/ex9/deoxys-speed.webp"
+],
+"ex10": [
+"assets/packs/ex10/steelix.webp",
+"assets/packs/ex10/umbreon.webp",
+"assets/packs/ex10/raikou.webp",
+"assets/packs/ex10/typhlosion.webp"
+],
+"ex11": [
+"assets/packs/ex11/metagross.webp",
+"assets/packs/ex11/salamence.webp",
+"assets/packs/ex11/dragonite.webp",
+"assets/packs/ex11/flareon.webp"
+],
+"ex12": [
+"assets/packs/ex12/arcanine.webp",
+"assets/packs/ex12/banette.webp",
+"assets/packs/ex12/aerodactyl.webp",
+"assets/packs/ex12/mew.webp"
+],
+"ex13": [
+"assets/packs/ex13/kabutops.webp",
+"assets/packs/ex13/zangoose.webp",
+"assets/packs/ex13/gyarados.webp",
+"assets/packs/ex13/mewtwo.webp"
+],
+"ex14": [
+"assets/packs/ex14/charizard.webp",
+"assets/packs/ex14/delcatty.webp",
+"assets/packs/ex14/jirachi.webp",
+"assets/packs/ex14/blaziken.webp"
+],
+"ex15": [
+"assets/packs/ex15/salamence.webp",
+"assets/packs/ex15/tyranitar.webp",
+"assets/packs/ex15/nidoking.webp",
+"assets/packs/ex15/latias.webp"
+],
+"ex16": [
+"assets/packs/ex16/aggron.webp",
+"assets/packs/ex16/absol.webp",
+"assets/packs/ex16/walrein.webp",
+"assets/packs/ex16/raichu.webp"
+],
+"dp1": [
+"assets/packs/dp1/electivire.webp",
+"assets/packs/dp1/lucario.webp",
+"assets/packs/dp1/palkia.webp",
+"assets/packs/dp1/dialga.webp"
+],
+"dp2": [
+"assets/packs/dp2/garchomp.webp",
+"assets/packs/dp2/toxicroak.webp",
+"assets/packs/dp2/uxie-mesprit-azelf.webp"
+],
+"dp3": [
+"assets/packs/dp3/honchkrow.webp",
+"assets/packs/dp3/roserade.webp",
+"assets/packs/dp3/gallade.webp",
+"assets/packs/dp3/weavile.webp"
+],
+"dp4": [
+"assets/packs/dp4/palkia.webp",
+"assets/packs/dp4/dialga.webp",
+"assets/packs/dp4/cresselia.webp",
+"assets/packs/dp4/darkrai.webp"
+],
+"dp5": [
+"assets/packs/dp5/empoleon.webp",
+"assets/packs/dp5/garchomp.webp",
+"assets/packs/dp5/hippowdon.webp",
+"assets/packs/dp5/darkrai.webp"
+],
+"dp6": [
+"assets/packs/dp6/rhyperior.webp",
+"assets/packs/dp6/giratina.webp",
+"assets/packs/dp6/lucario.webp",
+"assets/packs/dp6/luxray.webp"
+],
+"dp7": [
+"assets/packs/dp7/regigigas.webp",
+"assets/packs/dp7/infernape.webp",
+"assets/packs/dp7/torterra.webp",
+"assets/packs/dp7/dusknoir.webp"
+],
+"pl1": [
+"assets/packs/pl1/giratina.webp",
+"assets/packs/pl1/shaymin.webp",
+"assets/packs/pl1/dialga.webp",
+"assets/packs/pl1/palkia.webp"
+],
+"pl2": [
+"assets/packs/pl2/houndoom.webp",
+"assets/packs/pl2/leafeon.webp",
+"assets/packs/pl2/scizor.webp",
+"assets/packs/pl2/rotom.webp"
+],
+"pl3": [
+"assets/packs/pl3/garchomp.webp",
+"assets/packs/pl3/rayquaza.webp",
+"assets/packs/pl3/charizard.webp",
+"assets/packs/pl3/absol.webp"
+],
+"pl4": [
+"assets/packs/pl4/salamence.webp",
+"assets/packs/pl4/zapdos.webp",
+"assets/packs/pl4/arceus-grass.webp",
+"assets/packs/pl4/arceus-water.webp"
+],
+"hgss1": [
+"assets/packs/hgss1/donphan.webp",
+"assets/packs/hgss1/ampharos.webp",
+"assets/packs/hgss1/lugia.webp",
+"assets/packs/hgss1/ho-oh.webp"
+],
+"hgss2": [
+"assets/packs/hgss2/entei.webp",
+"assets/packs/hgss2/crobat.webp",
+"assets/packs/hgss2/suicune.webp",
+"assets/packs/hgss2/raikou.webp"
+],
+"hgss3": [
+"assets/packs/hgss3/jolteon.webp",
+"assets/packs/hgss3/rayquaza.webp",
+"assets/packs/hgss3/houndoom.webp",
+"assets/packs/hgss3/skarmory.webp"
+],
+"hgss4": [
+"assets/packs/hgss4/electivire.webp",
+"assets/packs/hgss4/magmortar.webp",
+"assets/packs/hgss4/palkia.webp",
+"assets/packs/hgss4/dialga.webp"
+],
+"col1": [
+"assets/packs/col1/lugia.webp",
+"assets/packs/col1/kyogre.webp",
+"assets/packs/col1/groudon.webp",
+"assets/packs/col1/deoxys.webp"
+],
+"bw1": [
+"assets/packs/bw1/zebstrika.webp",
+"assets/packs/bw1/reshiram.webp",
+"assets/packs/bw1/zoroark.webp",
+"assets/packs/bw1/zekrom.webp"
+],
+"bw2": [
+"assets/packs/bw2/braviary.webp",
+"assets/packs/bw2/darmanitan.webp",
+"assets/packs/bw2/tornadus.webp",
+"assets/packs/bw2/cobalion.webp"
+],
+"bw3": [
+"assets/packs/bw3/hydreigon.webp",
+"assets/packs/bw3/victini.webp",
+"assets/packs/bw3/kyurem.webp"
+],
+"bw4": [
+"assets/packs/bw4/regigigas.webp",
+"assets/packs/bw4/reshiram.webp",
+"assets/packs/bw4/mewtwo.webp",
+"assets/packs/bw4/zekrom.webp"
+],
+"bw5": [
+"assets/packs/bw5/venusaur.webp",
+"assets/packs/bw5/excadrill.webp",
+"assets/packs/bw5/scrafty.webp",
+"assets/packs/bw5/darkrai.webp"
+],
+"bw6": [
+"assets/packs/bw6/rayquaza.webp",
+"assets/packs/bw6/terrakion.webp",
+"assets/packs/bw6/gyarados.webp",
+"assets/packs/bw6/giratina.webp"
+],
+"dv1": [
+"assets/packs/dv1/haxorus.webp",
+"assets/packs/dv1/rayquaza.webp",
+"assets/packs/dv1/salamence.webp"
+],
+"bw7": [
+"assets/packs/bw7/landorus.webp",
+"assets/packs/bw7/keldeo.webp",
+"assets/packs/bw7/white-kyurem.webp",
+"assets/packs/bw7/black-kyurem.webp"
+],
+"bw8": [
+"assets/packs/bw8/infernape.webp",
+"assets/packs/bw8/articuno.webp",
+"assets/packs/bw8/liepard.webp",
+"assets/packs/bw8/lugia.webp"
+],
+"bw9": [
+"assets/packs/bw9/bisharp.webp",
+"assets/packs/bw9/deoxys.webp",
+"assets/packs/bw9/thundurus.webp",
+"assets/packs/bw9/absol.webp"
+],
+"bw10": [
+"assets/packs/bw10/genesect.webp",
+"assets/packs/bw10/dialga.webp",
+"assets/packs/bw10/palkia.webp",
+"assets/packs/bw10/porygon-z.webp"
+],
+"bw11": [
+"assets/packs/bw11/reshiram.webp",
+"assets/packs/bw11/genesect.webp",
+"assets/packs/bw11/mewtwo.webp",
+"assets/packs/bw11/zekrom.webp"
+],
+"xy1": [
+"assets/packs/xy1/xerneas.webp",
+"assets/packs/xy1/yveltal.webp",
+"assets/packs/xy1/blastoise.webp",
+"assets/packs/xy1/venusaur.webp"
+],
+"xy2": [
+"assets/packs/xy2/pyroar.webp",
+"assets/packs/xy2/kangaskhan.webp",
+"assets/packs/xy2/charizard-x.webp",
+"assets/packs/xy2/charizard-y.webp"
+],
+"xy3": [
+"assets/packs/xy3/tyrantrum.webp",
+"assets/packs/xy3/hawlucha.webp",
+"assets/packs/xy3/heracross.webp",
+"assets/packs/xy3/lucario.webp"
+],
+"xy4": [
+"assets/packs/xy4/aegislash.webp",
+"assets/packs/xy4/diancie.webp",
+"assets/packs/xy4/manectric.webp",
+"assets/packs/xy4/gengar.webp"
+],
+"xy5": [
+"assets/packs/xy5/groudon.webp",
+"assets/packs/xy5/kyogre.webp",
+"assets/packs/xy5/aggron.webp",
+"assets/packs/xy5/gardevoir.webp"
+],
+"dc1": [
+"assets/packs/dc1/groudon-courtney.webp",
+"assets/packs/dc1/kyogre-shelly.webp"
+],
+"xy6": [
+"assets/packs/xy6/deoxys.webp",
+"assets/packs/xy6/rayquaza.webp",
+"assets/packs/xy6/gallade.webp",
+"assets/packs/xy6/latios.webp"
+],
+"xy7": [
+"assets/packs/xy7/groudon.webp",
+"assets/packs/xy7/tyranitar.webp",
+"assets/packs/xy7/rayquaza.webp",
+"assets/packs/xy7/hoopa.webp"
+],
+"xy8": [
+"assets/packs/xy8/houndoom.webp",
+"assets/packs/xy8/zoroark.webp",
+"assets/packs/xy8/mewtwo-x.webp",
+"assets/packs/xy8/mewtwo-y.webp"
+],
+"xy9": [
+"assets/packs/xy9/gyarados.webp",
+"assets/packs/xy9/scizor.webp",
+"assets/packs/xy9/greninja.webp",
+"assets/packs/xy9/luxray.webp"
+],
+"g1": [
+"assets/packs/g1/blastoise.webp",
+"assets/packs/g1/charizard.webp",
+"assets/packs/g1/pikachu.webp"
+],
+"xy10": [
+"assets/packs/xy10/zygarde.webp",
+"assets/packs/xy10/alakazam.webp",
+"assets/packs/xy10/lugia.webp",
+"assets/packs/xy10/delphox.webp"
+],
+"xy11": [
+"assets/packs/xy11/volcanion.webp",
+"assets/packs/xy11/gardevoir.webp",
+"assets/packs/xy11/yveltal.webp",
+"assets/packs/xy11/xerneas.webp"
+],
+"xy12": [
+"assets/packs/xy12/raichu.webp",
+"assets/packs/xy12/blastoise.webp",
+"assets/packs/xy12/charizard.webp",
+"assets/packs/xy12/venusaur.webp"
+],
+"sm1": [
+"assets/packs/sm1/incineroar.webp",
+"assets/packs/sm1/decidueye.webp",
+"assets/packs/sm1/lunala.webp",
+"assets/packs/sm1/primarina.webp"
+],
+"sm2": [
+"assets/packs/sm2/lycanroc.webp",
+"assets/packs/sm2/ninetales.webp",
+"assets/packs/sm2/tapu-koko.webp",
+"assets/packs/sm2/kommo-o.webp"
+],
+"sm3": [
+"assets/packs/sm3/marshadow.webp",
+"assets/packs/sm3/necrozma.webp",
+"assets/packs/sm3/tapu-fini.webp",
+"assets/packs/sm3/ho-oh.webp"
+],
+"sm3.5": [
+"assets/packs/sm3.5/rayquaza.webp",
+"assets/packs/sm3.5/mewtwo.webp",
+"assets/packs/sm3.5/mew.webp",
+"assets/packs/sm3.5/genesect.webp"
+],
+"sm4": [
+"assets/packs/sm4/silvally.webp",
+"assets/packs/sm4/guzzlord.webp",
+"assets/packs/sm4/buzzwole.webp",
+"assets/packs/sm4/kartana.webp"
+],
+"sm5": [
+"assets/packs/sm5/giratina.webp",
+"assets/packs/sm5/leafeon.webp",
+"assets/packs/sm5/dawn-wings-necrozma.webp",
+"assets/packs/sm5/dusk-mane-necrozma.webp"
+],
+"sm6": [
+"assets/packs/sm6/naganadel.webp",
+"assets/packs/sm6/greninja.webp",
+"assets/packs/sm6/zygarde.webp",
+"assets/packs/sm6/necrozma.webp"
+],
+"sm7": [
+"assets/packs/sm7/stakataka.webp",
+"assets/packs/sm7/blaziken.webp",
+"assets/packs/sm7/rayquaza.webp",
+"assets/packs/sm7/jirachi.webp"
+],
+"sm7.5": [
+"assets/packs/sm7.5/reshiram.webp",
+"assets/packs/sm7.5/charizard.webp",
+"assets/packs/sm7.5/salamence.webp",
+"assets/packs/sm7.5/dragonite.webp"
+],
+"sm8": [
+"assets/packs/sm8/zeraora.webp",
+"assets/packs/sm8/blacephalon.webp",
+"assets/packs/sm8/celebi.webp",
+"assets/packs/sm8/lugia.webp"
+],
+"sm9": [
+"assets/packs/sm9/gengar-mimikyu.webp",
+"assets/packs/sm9/eevee-snorlax.webp",
+"assets/packs/sm9/pikachu-zekrom.webp",
+"assets/packs/sm9/venusaur-celebi.webp"
+],
+"det1": [
+"assets/packs/det1/pack.webp"
+],
+"sm10": [
+"assets/packs/sm10/charizard-reshiram.webp",
+"assets/packs/sm10/gardevoir-sylveon.webp",
+"assets/packs/sm10/machamp-marshadow.webp",
+"assets/packs/sm10/lucario-melmetal.webp"
+],
+"sm11": [
+"assets/packs/sm11/garchomp-giratina.webp",
+"assets/packs/sm11/umbreon-darkrai.webp",
+"assets/packs/sm11/espeon-deoxys.webp",
+"assets/packs/sm11/mewtwo-mew.webp"
+],
+"sm115": [
+"assets/packs/sm115/charizard.webp",
+"assets/packs/sm115/mewtwo.webp",
+"assets/packs/sm115/mew.webp",
+"assets/packs/sm115/legendary-birds.webp"
+],
+"sm12": [
+"assets/packs/sm12/blastoise-piplup.webp",
+"assets/packs/sm12/solgaleo-lunala.webp",
+"assets/packs/sm12/cleffa-igglybuff-togepi.webp",
+"assets/packs/sm12/dialga-palkia-arceus.webp"
+],
+"swsh1": [
+"assets/packs/swsh1/zacian.webp",
+"assets/packs/swsh1/zamazenta.webp",
+"assets/packs/swsh1/gigantamax-snorlax.webp",
+"assets/packs/swsh1/gigantamax-lapras.webp"
+],
+"swsh2": [
+"assets/packs/swsh2/inteleon.webp",
+"assets/packs/swsh2/rillaboom.webp",
+"assets/packs/swsh2/cinderace.webp",
+"assets/packs/swsh2/gigantamax-toxtricity.webp"
+],
+"swsh3": [
+"assets/packs/swsh3/gigantamax-centiskorch.webp",
+"assets/packs/swsh3/gigantamax-grimmsnarl.webp",
+"assets/packs/swsh3/gigantamax-charizard.webp",
+"assets/packs/swsh3/eternamax-eternatus.webp"
+],
+"swsh3.5": [
+"assets/packs/swsh3.5/gardevoir.webp",
+"assets/packs/swsh3.5/obstagoon.webp",
+"assets/packs/swsh3.5/gigantamax-alcremie.webp",
+"assets/packs/swsh3.5/gigantamax-drednaw.webp"
+],
+"swsh4": [
+"assets/packs/swsh4/celebi.webp",
+"assets/packs/swsh4/zarude.webp",
+"assets/packs/swsh4/gigantamax-orbeetle.webp",
+"assets/packs/swsh4/gigantamax-pikachu.webp"
+],
+"swsh4.5": [
+"assets/packs/swsh4.5/shiny-corviknight.webp",
+"assets/packs/swsh4.5/shiny-toxtricity.webp",
+"assets/packs/swsh4.5/shiny-charizard.webp",
+"assets/packs/swsh4.5/shiny-dragapult.webp"
+],
+"swsh5": [
+"assets/packs/swsh5/tyranitar.webp",
+"assets/packs/swsh5/empoleon.webp",
+"assets/packs/swsh5/rapid-strike-urshifu.webp",
+"assets/packs/swsh5/single-strike-urshifu.webp"
+],
+"swsh6": [
+"assets/packs/swsh6/galarian-articuno.webp",
+"assets/packs/swsh6/galarian-moltres.webp",
+"assets/packs/swsh6/galarian-zapdos.webp",
+"assets/packs/swsh6/shadow-rider-calyrex.webp"
+],
+"swsh8": [
+"assets/packs/swsh8/genesect.webp",
+"assets/packs/swsh8/boltund.webp",
+"assets/packs/swsh8/mew.webp",
+"assets/packs/swsh8/gigantamax-gengar.webp"
+],
+"swsh9": [
+"assets/packs/swsh9/arceus.webp",
+"assets/packs/swsh9/shaymin.webp",
+"assets/packs/swsh9/whimsicott.webp",
+"assets/packs/swsh9/charizard.webp"
+],
+"swsh10": [
+"assets/packs/swsh10/origin-palkia.webp",
+"assets/packs/swsh10/hisuian-typhlosion.webp",
+"assets/packs/swsh10/hisuian-decidueye.webp",
+"assets/packs/swsh10/hisuian-samurott.webp"
+],
+"swsh10.5": [
+"assets/packs/swsh10.5/pack.webp"
+],
+"swsh11": [
+"assets/packs/swsh11/enamorus.webp",
+"assets/packs/swsh11/origin-forme-giratina.webp",
+"assets/packs/swsh11/radiant-gardevoir.webp",
+"assets/packs/swsh11/hisuian-zoroark.webp"
+],
+"swsh12": [
+"assets/packs/swsh12/lugia.webp",
+"assets/packs/swsh12/regidrago.webp",
+"assets/packs/swsh12/regieleki.webp",
+"assets/packs/swsh12/alolan-vulpix.webp"
+],
+"sv01": [
+"assets/packs/sv01/miraidon.webp",
+"assets/packs/sv01/koraidon.webp",
+"assets/packs/sv01/gyarados.webp",
+"assets/packs/sv01/partners.webp"
+],
+"sv02": [
+"assets/packs/sv02/skeledirge.webp",
+"assets/packs/sv02/quaquaval.webp",
+"assets/packs/sv02/meowscarada.webp",
+"assets/packs/sv02/chien-pao.webp"
+],
+"sv04": [
+"assets/packs/sv04/armarouge.webp",
+"assets/packs/sv04/garchomp.webp",
+"assets/packs/sv04/roaring-moon.webp",
+"assets/packs/sv04/iron-valiant.webp"
+],
+"sv05": [
+"assets/packs/sv05/iron-crown.webp",
+"assets/packs/sv05/walking-wake.webp",
+"assets/packs/sv05/iron-leaves.webp",
+"assets/packs/sv05/raging-bolt.webp"
+],
+"sv06.5": [
+"assets/packs/sv06.5/fezandipiti.webp",
+"assets/packs/sv06.5/munkidori.webp",
+"assets/packs/sv06.5/pecharunt.webp",
+"assets/packs/sv06.5/okidogi.webp"
+],
+"sv07": [
+"assets/packs/sv07/galvantula.webp",
+"assets/packs/sv07/terapagos.webp",
+"assets/packs/sv07/lapras.webp",
+"assets/packs/sv07/cinderace.webp"
+]
+},
+"low": {
+"base4": [
+"raichu 287x450"
+],
+"gym1": [
+"lt-surge 222x400"
+],
+"gym2": [
+"giovanni 293x500"
+],
+"neo2": [
+"umbreon 319x555"
+],
+"neo4": [
+"tyranitar 290x523",
+"noctowl 248x450"
+],
+"ex3": [
+"rayquaza 299x542",
+"latias 307x542",
+"latios 300x542",
+"absol 304x542"
+],
+"ex4": [
+"houndoom 189x349",
+"walrein 192x349",
+"aggron 195x349"
+],
+"ex9": [
+"kyogre 195x354"
+],
+"dp1": [
+"electivire 241x413",
+"lucario 239x413",
+"palkia 240x412"
+],
+"dp2": [
+"uxie-mesprit-azelf 262x500"
+],
+"dp5": [
+"empoleon 230x400",
+"garchomp 151x273",
+"hippowdon 179x300",
+"darkrai 235x448"
+],
+"dp6": [
+"lucario 214x405",
+"luxray 211x400"
+],
+"dp7": [
+"regigigas 300x571",
+"infernape 300x571",
+"torterra 300x571",
+"dusknoir 300x571"
+],
+"pl2": [
+"houndoom 225x430",
+"leafeon 225x430",
+"scizor 225x430",
+"rotom 300x571"
+],
+"hgss1": [
+"donphan 291x554",
+"ampharos 291x554",
+"lugia 291x554",
+"ho-oh 291x554"
+],
+"hgss3": [
+"jolteon 184x350",
+"rayquaza 184x350",
+"houndoom 184x350",
+"skarmory 184x350"
+],
+"hgss4": [
+"electivire 200x380",
+"magmortar 200x380",
+"palkia 200x380",
+"dialga 200x380"
+],
+"xy4": [
+"aegislash 180x343",
+"diancie 180x343",
+"manectric 180x343",
+"gengar 180x343"
+],
+"xy6": [
+"deoxys 211x399",
+"rayquaza 213x399",
+"latios 210x400"
+],
+"xy8": [
+"mewtwo-x 298x540"
+],
+"xy9": [
+"gyarados 229x418",
+"scizor 229x418",
+"greninja 229x418",
+"luxray 229x418"
+],
+"g1": [
+"blastoise 317x568",
+"charizard 232x415"
+],
+"xy10": [
+"alakazam 246x450",
+"delphox 300x550"
+],
+"sm2": [
+"lycanroc 263x481",
+"kommo-o 300x550"
+],
+"sm3.5": [
+"mewtwo 242x450",
+"mew 288x500"
+],
+"sm5": [
+"giratina 144x264",
+"leafeon 145x265",
+"dawn-wings-necrozma 144x264",
+"dusk-mane-necrozma 144x264"
+],
+"sm7.5": [
+"salamence 282x504"
+],
+"det1": [
+"pack 187x343"
+],
+"sm115": [
+"mewtwo 283x516",
+"mew 244x440",
+"legendary-birds 315x540"
+],
+"swsh3.5": [
+"gardevoir 187x343",
+"obstagoon 187x343",
+"gigantamax-alcremie 187x343",
+"gigantamax-drednaw 187x343"
+]
+}
+}

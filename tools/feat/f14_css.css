@@ -1,0 +1,17 @@
+
+.nhrib{position:absolute;top:0;right:0;width:46%;aspect-ratio:1;overflow:hidden;pointer-events:none;z-index:6;animation:nhin .45s .32s both}
+.nhrib.late{animation-delay:.5s}
+.nhrib span{position:absolute;top:22%;right:-34%;width:120%;transform:rotate(45deg);text-align:center;padding:3.2% 0;background:rgba(16,18,36,.86);border-top:1px solid rgba(226,196,120,.55);border-bottom:1px solid rgba(226,196,120,.55);color:#e6cf8e;font:700 clamp(8px,2.6vw,12px)/1.1 Outfit,system-ui,sans-serif;letter-spacing:.22em;box-shadow:0 2px 6px rgba(0,0,0,.35)}
+.nhrib.chase span{color:#f0dba0;background:rgba(36,26,10,.88)}
+@keyframes nhin{from{opacity:0;transform:translate(8%,-8%)}to{opacity:1;transform:none}}
+#nhtoast{position:fixed;left:50%;top:calc(70px + var(--sa-t,0px));z-index:89;display:flex;gap:10px;align-items:center;width:max-content;max-width:min(340px,calc(100vw - 24px));padding:9px 15px 9px 12px;border-radius:14px;background:rgba(14,16,34,.94);border:1px solid rgba(226,196,120,.3);box-shadow:0 10px 26px rgba(0,0,0,.45);color:#e9ecff;pointer-events:none;opacity:0;visibility:hidden;transform:translate(-50%,-12px);transition:opacity .24s,transform .24s cubic-bezier(.2,.8,.2,1),visibility 0s .24s}
+#nhtoast.on{opacity:1;visibility:visible;transform:translate(-50%,0);transition:opacity .24s,transform .24s cubic-bezier(.2,.8,.2,1)}
+#nhtoast.low{top:calc(136px + var(--sa-t,0px))}
+#nhtoast i{font-style:normal;color:#e3cc8c;font-size:17px}
+#nhtoast span{display:flex;flex-direction:column;gap:1px;min-width:0}
+#nhtoast b{font-size:14px;font-weight:600}
+#nhtoast small{font-size:12px;color:#aab1d8;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#nhtoast.chase{border-color:rgba(226,196,120,.5)}
+.nhsum{display:flex;flex-wrap:wrap;justify-content:center;gap:4px 12px;margin:0 auto 10px;padding:6px 14px;border-radius:999px;background:rgba(14,16,34,.6);border:1px solid rgba(226,196,120,.25);color:#d9cfa8;font-size:13px;width:max-content;max-width:94vw}
+.nhsum b{color:#ecd696;font-weight:600}
+@media (prefers-reduced-motion:reduce){.nhrib{animation:none}#nhtoast,#nhtoast.on{transition:none}}

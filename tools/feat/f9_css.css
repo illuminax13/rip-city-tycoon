@@ -1,0 +1,7 @@
+/* F9: gold / hyper / mega hyper rares — the printed card is already gold, so the foil is only a fine white brushed-metal
+   sheen inside the moving light band (white-alpha, no tint, no blend modes) and the halo is a neutral shadow, not a yellow glow */
+.f-etch.t-gold{--fo:.42;--ts:3px 3px;--tex:repeating-linear-gradient(0deg,rgba(255,255,255,.32) 0 1px,rgba(255,255,255,.05) 1px 3px)}
+.card.f-etch.t-gold.tilting .glare{opacity:.45}
+.big.t-gold.flipped .front{box-shadow:0 0 0 1px rgba(255,255,255,.10),0 10px 26px rgba(0,0,0,.55)}
+.big.t-gold.flipped .inner:after{box-shadow:0 0 12px 1px rgba(255,248,230,.10);animation:none;opacity:1}
+#vcard .card.t-gold .inner:after{display:none}

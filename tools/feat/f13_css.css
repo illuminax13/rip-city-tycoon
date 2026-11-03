@@ -1,0 +1,42 @@
+
+#vBinder.chasing #bwrap,#vBinder.chasing #bpage{display:none}
+#bchase{max-width:640px;margin:0 auto;padding:0 12px calc(24px + var(--sa-b,0px))}
+.bfilt{flex-wrap:wrap}
+.chhead{display:flex;justify-content:space-between;color:#aeb5dc;font-size:12.5px;padding:6px 4px 8px;letter-spacing:.2px}
+.chlist{display:flex;flex-direction:column;gap:6px}
+.chrow{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:10px;width:100%;padding:7px 10px 7px 6px;border-radius:12px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.07);cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation;contain:content}
+.chrow:active{background:rgba(255,255,255,.09)}
+.chrow:focus-visible{outline:2px solid rgba(233,207,135,.6)}
+.chrk{width:18px;text-align:center;color:#8d93b8;font-size:12px;font-variant-numeric:tabular-nums;flex:none}
+.chimg{width:44px;height:61px;flex:none;border-radius:4px;overflow:hidden;background:rgba(255,255,255,.06)}
+.chimg img{width:100%;height:100%;object-fit:cover;display:block}
+.chrow.miss .chimg img{opacity:.5}
+.chmid{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.chmid b{font-weight:600;font-size:14px;color:#e8ebff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chmid small{font-size:11.5px;color:#9aa1c7;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chmid .chodds{color:#b9c0e6}
+.chwait{font-style:normal;opacity:.6}
+.chend{flex:none;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
+.chpx{font-size:14px;font-weight:600;color:#e3cc8c;font-variant-numeric:tabular-nums}
+.chown{font-size:11px;padding:2px 7px;border-radius:999px;background:rgba(255,255,255,.06);color:#9aa1c7;white-space:nowrap}
+.chrow.own .chown{background:rgba(120,190,140,.14);color:#a9d8b4}
+.chfoot{color:#8a90b4;font-size:11.5px;line-height:1.45;margin:12px 4px 0}
+.chload{display:flex;flex-direction:column;gap:6px}.chsk{height:75px;border-radius:12px;background:rgba(255,255,255,.045)}
+#chsheet{position:fixed;inset:0;z-index:58;pointer-events:none}
+#chsheet .chback{position:absolute;inset:0;background:rgba(5,6,16,.5);opacity:0;transition:opacity .2s}
+#chsheet .chpanel{position:absolute;left:0;right:0;bottom:0;max-width:640px;margin:0 auto;max-height:82vh;max-height:82dvh;display:flex;flex-direction:column;background:rgba(14,16,34,.97);border:1px solid var(--line);border-bottom:0;border-radius:18px 18px 0 0;box-shadow:0 -8px 30px rgba(0,0,0,.4);transform:translateY(105%);transition:transform .26s cubic-bezier(.2,.8,.2,1);will-change:transform}
+#chsheet.on{pointer-events:auto}#chsheet.on .chback{opacity:1}#chsheet.on .chpanel{transform:none}
+.chgrab{display:flex;justify-content:center;padding:8px 0 2px;touch-action:none}.chgrab i{width:38px;height:4px;border-radius:2px;background:rgba(255,255,255,.18)}
+.chtop{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:2px 14px 8px;touch-action:none}
+.chtop b{font-size:15px;color:#e8ebff;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#chx{padding:5px 10px;font-size:13px;line-height:1}
+#chbody{overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:0 10px calc(14px + var(--sa-b,0px))}
+#schase{white-space:nowrap}
+#vWheel.stage #schase{background:rgba(255,255,255,.75);color:#24324a;border:1px solid rgba(30,50,80,.12);box-shadow:0 2px 8px rgba(30,50,80,.12)}
+@media (max-width:420px){#stageui{gap:8px}#schase,#sbox{padding-left:11px;padding-right:11px}#schase .chlbl{display:none}#schase{padding-left:12px;padding-right:12px}}
+@media (prefers-reduced-motion:reduce){#chsheet .chpanel,#chsheet .chback{transition:none}}
+/* iOS keeps :hover after a tap, and button.ghost:hover used to beat the gold "on" filter (dark text on dark) */
+.bfilt button.ghost.on,.bfilt button.ghost.on:hover{background:linear-gradient(180deg,#ffe78a,#ffc22e);color:#1b1300}
+/* set-page header: room for ★ Chase on a 390pt iPhone */
+#sback{white-space:nowrap}
+#vWheel.stage #sstatus{flex:1 1 0;min-width:0;overflow:hidden;max-height:40px}

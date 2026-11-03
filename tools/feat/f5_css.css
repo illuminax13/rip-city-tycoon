@@ -1,0 +1,15 @@
+.card .pchip{position:absolute;left:-6px;right:-6px;bottom:-23px;text-align:center;font-size:12px;line-height:16px;color:#9fe3a6;pointer-events:none;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card .pchip.np{color:#7f88b8}
+#summary .sgrid{row-gap:30px}
+.packval{text-align:center;color:#b9bfe6;font-size:14px;margin:4px 0 0}.packval b{color:#9fe3a6}
+.zp{color:#9fe3a6}.zp small,.pxsrc{color:#8f97c7;font-size:12px}
+#hval{white-space:nowrap}#hval b{color:#9fe3a6}
+.bval{font-size:12px;color:#9fe3a6;margin-top:3px;min-height:15px}
+#bvalb{margin-left:auto;margin-right:10px;font-size:14px;color:#9fe3a6;white-space:nowrap}
+.pxpanel{grid-column:1/-1;max-width:1000px;margin:0 auto;width:100%;box-sizing:border-box;contain:layout;padding:12px 14px;border-radius:14px;background:#ffffff0b;border:1px solid #ffffff16}
+.pxpanel .pxtot{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.pxpanel .pxtot b{font-size:22px;color:#9fe3a6}
+.pxpanel .pxtot button{margin-left:auto;font-size:14px;padding:8px 14px}
+.pxmv{display:flex;gap:8px;margin-top:8px;height:172px;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px}.pxmv button{flex:0 0 84px}
+.pxmv button{appearance:none;border:0;padding:0;background:#ffffff0d;border-radius:7px;overflow:hidden;color:inherit;font:inherit;text-align:left;cursor:zoom-in}
+.pxmv img{display:block;width:100%;aspect-ratio:63/88;object-fit:cover}.pxmv span{display:block;padding:3px 5px 5px;font-size:11px;line-height:1.25}.pxmv em{font-style:normal;color:#9fe3a6}
+.pxph{background:#ffffff08;border-radius:8px}

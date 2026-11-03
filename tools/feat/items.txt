@@ -1,0 +1,22 @@
+binders
+box
+cardimg
+flow@Base Set|Jungle|Fossil
+flow@Evolving Skies|Scarlet|Surging
+flow@Prismatic|Pitch Black|Team Rocket
+flow@Celebrations|Crown Zenith|30th
+flow@swipe spin|God pack
+lorcana
+newsets
+persistence
+pullrates
+rarity
+sound
+sw-a11y@service worker|a11y basics|rapid double|back mid
+sw-a11y@resize|image fallbacks|20 pack
+sw-a11y@offline after|versioned|wide desktop
+tilt
+value
+zoom
+offline-new
+zz-foil

@@ -1,0 +1,197 @@
+{
+ "note": "Chromium iPhone13 emu, CPU 4x, slow 4G, swiftshader. core = perf.js; features = perf2.js. baseline_bed5fed = pre-feature commit, same harness/run day",
+ "core": {
+  "url": "http://127.0.0.1:8765/",
+  "when": "2026-10-21T05:49:06.463Z",
+  "pickerTiles_ms": 1566,
+  "pickerInteractive_ms": 1621,
+  "fontsReady_ms": 2538,
+  "loadEvent_ms": 9594,
+  "coldBytes": 1851479,
+  "coldReqs": 49,
+  "coldLongTasks": {
+   "n": 2,
+   "total": 200
+  },
+  "setLoad_ms": 264,
+  "spinFrames": {
+   "n": 114,
+   "mean": 26.3,
+   "p95": 50,
+   "max": 100,
+   "janky": 3
+  },
+  "tapToTear_ms": 91,
+  "tearFrames": {
+   "n": 26,
+   "mean": 91,
+   "p95": 266.6,
+   "max": 416.6,
+   "janky": 17
+  },
+  "tearLatency": {
+   "n": 24,
+   "mean": 154.1,
+   "p95": 441.9,
+   "max": 455.3,
+   "janky": 23
+  },
+  "ripToStack_ms": 1411,
+  "stackImgsReady_ms": 1,
+  "flipFrames": {
+   "n": 167,
+   "mean": 52.1,
+   "p95": 133.3,
+   "max": 333.4,
+   "janky": 47
+  },
+  "shelfReady_ms": 378,
+  "binderOpen_ms": 1802,
+  "pageTurnFrames": {
+   "n": 65,
+   "mean": 35.3,
+   "p95": 95.4,
+   "max": 316.6,
+   "janky": 7
+  },
+  "after20": {
+   "heapMB": 3.4,
+   "nodes": 3004,
+   "listeners": 840,
+   "lsKB": 25
+  },
+  "totalLongTasks": {
+   "n": 13,
+   "total": 964
+  },
+  "totalBytes": 2154107,
+  "totalReqs": 268,
+  "warmTiles_ms": 373,
+  "warmBytes": 0,
+  "warmReqs": 130
+ },
+ "features": {
+  "url": "http://127.0.0.1:8765/",
+  "when": "2026-10-21T05:55:01.653Z",
+  "before": {
+   "heapMB": 2.5,
+   "nodes": 922,
+   "listeners": 278,
+   "lsKB": 0,
+   "priceKB": 0
+  },
+  "boxClickToFirstPack_ms": 263,
+  "boxFastOpen36_ms": 6696,
+  "boxFlyFrames": {
+   "n": 225,
+   "mean": 29.7,
+   "p95": 50,
+   "max": 100,
+   "janky": 9
+  },
+  "boxPricesLoaded_ms": 9342,
+  "boxValueText": "box value · 360/360 priced",
+  "zoomOpen_ms": 244,
+  "zoomImgReady_ms": 0,
+  "zoomSwipeFrames": {
+   "n": 9,
+   "mean": 143.4,
+   "p95": 516.7,
+   "max": 516.7,
+   "janky": 6
+  },
+  "boxSkipToSummary_ms": [
+   277,
+   401
+  ],
+  "after3Boxes": {
+   "heapMB": 3.2,
+   "nodes": 2660,
+   "listeners": 791,
+   "lsKB": 55,
+   "priceKB": 8
+  },
+  "store": {
+   "packs": 108,
+   "hist": 100,
+   "histC": 100,
+   "collKeys": 198
+  },
+  "longTasks": {
+   "n": 3,
+   "total": 279,
+   "max": 108
+  },
+  "errors": []
+ },
+ "baseline_bed5fed": {
+  "url": "http://127.0.0.1:8766/",
+  "when": "2026-10-21T05:45:34.650Z",
+  "pickerTiles_ms": 1166,
+  "pickerInteractive_ms": 1451,
+  "fontsReady_ms": 1459,
+  "loadEvent_ms": 9518,
+  "coldBytes": 1798988,
+  "coldReqs": 49,
+  "coldLongTasks": {
+   "n": 2,
+   "total": 203
+  },
+  "setLoad_ms": 248,
+  "spinFrames": {
+   "n": 126,
+   "mean": 25,
+   "p95": 50,
+   "max": 100.1,
+   "janky": 3
+  },
+  "tapToTear_ms": 49,
+  "tearFrames": {
+   "n": 26,
+   "mean": 91.7,
+   "p95": 266.6,
+   "max": 400.1,
+   "janky": 20
+  },
+  "tearLatency": {
+   "n": 24,
+   "mean": 159.1,
+   "p95": 417.4,
+   "max": 429.1,
+   "janky": 23
+  },
+  "ripToStack_ms": 1400,
+  "stackImgsReady_ms": 0,
+  "flipFrames": {
+   "n": 183,
+   "mean": 46.9,
+   "p95": 100,
+   "max": 366.6,
+   "janky": 43
+  },
+  "shelfReady_ms": 391,
+  "binderOpen_ms": 919,
+  "pageTurnFrames": {
+   "n": 23,
+   "mean": 77.9,
+   "p95": 233.4,
+   "max": 366.6,
+   "janky": 8
+  },
+  "after20": {
+   "heapMB": 3.2,
+   "nodes": 2813,
+   "listeners": 799,
+   "lsKB": 14
+  },
+  "totalLongTasks": {
+   "n": 9,
+   "total": 654
+  },
+  "totalBytes": 1798988,
+  "totalReqs": 218,
+  "warmTiles_ms": 364,
+  "warmBytes": 0,
+  "warmReqs": 122
+ }
+}

@@ -1,0 +1,5 @@
+screenshot*.png
+node_modules
+tests/results.json
+test-results/
+playwright-report/

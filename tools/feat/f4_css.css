@@ -1,0 +1,41 @@
+#sbox{white-space:nowrap}
+#boxv{position:fixed;inset:0;z-index:55;display:none;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;background:radial-gradient(120% 80% at 50% 0%,#1b1f3a,#07080f 70%);color:#e9ecff;padding:calc(12px + var(--sa-t,0px)) calc(14px + var(--sa-r,0px)) calc(24px + var(--sa-b,0px)) calc(14px + var(--sa-l,0px))}
+#boxv.on{display:block}
+.bxtop{display:flex;align-items:center;gap:12px;max-width:1000px;margin:0 auto 14px}
+.bxttl{flex:1;font-weight:600;font-size:17px;line-height:1.25}.bxttl small{display:block;color:#9aa3d6;font-weight:400;font-size:13px}
+.bxprog{color:#b9bfe6;font-size:14px;white-space:nowrap}.bxprog b{color:var(--gold,#ffd54a)}
+.bxbody{max-width:1000px;margin:0 auto}
+.bxprods{display:flex;flex-wrap:wrap;gap:10px;margin:6px 0 14px}
+.bxprods button{flex:1 1 180px;text-align:left;padding:12px 14px;border-radius:14px;border:1px solid #ffffff22;background:#ffffff0d;color:inherit;font:inherit;cursor:pointer}
+.bxprods button.sel{border-color:var(--gold,#ffd54a);background:#ffd54a1a}
+.bxprods button small{display:block;color:#9aa3d6;font-size:12px;margin-top:2px}
+.bxact{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0 10px}
+.bxact button{font-size:16px;padding:12px 22px}
+.bxnote{color:#8f97c7;font-size:12.5px;margin:8px 0}
+.bxchk{display:flex;align-items:center;gap:6px;color:#c8cdf0;font-size:14px}
+.bxfly{display:flex;flex-direction:column;align-items:center;gap:14px;padding-top:4vh}
+.bxpk{font-size:15px;color:#b9bfe6}.bxpk b{color:#fff}
+.bxrow{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;min-height:150px;max-width:900px}
+.bxrow.all .bxt{width:72px}
+.bxt{width:110px;border-radius:7px;overflow:hidden;background:#ffffff10;animation:bxin .28s ease-out both;position:relative}
+.bxt img{display:block;width:100%;aspect-ratio:63/88;object-fit:cover}
+.bxt.t4,.bxt.t5{box-shadow:0 0 0 2px #ffd54a99,0 0 18px #ffd54a55}.bxt.t6{box-shadow:0 0 0 2px #ff9cf0,0 0 24px #ff9cf088}
+@keyframes bxin{from{opacity:0;transform:translateY(18px) scale(.92)}to{opacity:1;transform:none}}
+.bxmeter{width:min(420px,80vw);height:6px;border-radius:3px;background:#ffffff18;overflow:hidden}.bxmeter i{display:block;height:100%;background:var(--gold,#ffd54a);width:0}
+.bxsum h3{margin:22px 0 10px;font-size:15px;letter-spacing:.06em;text-transform:uppercase;color:#aab2e8}
+.bxstats{display:flex;flex-wrap:wrap;gap:10px}
+.bxstats div{flex:1 1 120px;padding:10px 12px;border-radius:12px;background:#ffffff0d;border:1px solid #ffffff14}
+.bxstats b{display:block;font-size:20px;color:#fff}.bxstats span{font-size:12px;color:#9aa3d6}
+.bxgod{margin:12px 0 0;padding:10px 14px;border-radius:12px;background:linear-gradient(90deg,#ffd54a33,#ff9cf033);border:1px solid #ffd54a77;font-weight:600}
+.bxbest{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.bxbest .bbc{width:min(220px,46vw)}.bxbest .bbc .bbimg{width:100%;display:block;border:0;padding:0;cursor:zoom-in;animation:none;border-radius:10px}
+.bxbest .bbi{flex:1 1 140px;font-size:15px;line-height:1.5}.bxbest .bbi b{font-size:19px}
+.bxtab{width:100%;border-collapse:collapse;font-size:14px}.bxtab td{padding:6px 8px;border-bottom:1px solid #ffffff12}.bxtab td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.bxgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:10px}
+.bxgrid.all{grid-template-columns:repeat(auto-fill,minmax(72px,1fr));gap:6px}
+.bxgrid .bxt{width:auto;cursor:zoom-in;animation:none;border:0;padding:0;color:inherit;font:inherit;text-align:left}
+.bxt .cap{display:block;padding:4px 6px 6px;font-size:11px;line-height:1.25;color:#cfd4f5}.bxt .cap em{display:block;font-style:normal;color:#8f97c7}
+.bxt .pr{color:#9fe3a6}
+.bxsum .sbtn2{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:24px 0 8px}
+@media (max-width:640px){.bxt{width:84px}.bxrow.all .bxt{width:56px}.bxact button{flex:1 1 140px}}
+#vWheel.stage #sbox{background:rgba(255,255,255,.75);color:#24324a;border:1px solid rgba(30,50,80,.12);box-shadow:0 2px 8px rgba(30,50,80,.12)}

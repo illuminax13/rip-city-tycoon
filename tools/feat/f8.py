@@ -1,0 +1,5 @@
+block('f8css','css',open('/workspace/feat/f8_css.css').read())
+rep('<div id="vShelf" class="view">','<div id="vAch" class="view" aria-label="Achievements"></div>\n<div id="vShelf" class="view">')
+rep('<button id="setbtn" class="ghost"','<button id="achbtn" class="ghost" aria-label="Achievements">🏆</button><button id="setbtn" class="ghost"')
+rep('if(confirm("Clear collection?")){localStorage.removeItem("pps");','if(confirm("Clear collection?")){localStorage.removeItem("pps");localStorage.removeItem("ppsAch");')
+block('f8','js',open('/workspace/feat/f8.js').read())

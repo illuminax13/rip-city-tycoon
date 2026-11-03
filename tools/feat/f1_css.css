@@ -1,0 +1,7 @@
+/* ==== settings menu ==== */
+#setbtn{font-size:16px;line-height:1;padding:7px 11px}
+#settings{position:fixed;top:calc(62px + var(--sa-t,0px));right:calc(14px + var(--sa-r,0px));z-index:75;width:min(290px,calc(100vw - 28px));background:rgba(14,16,34,.97);border:1px solid var(--line);border-radius:16px;padding:12px 16px 14px;box-shadow:0 18px 44px rgba(0,0,0,.65);display:none;color:#dfe3ff}
+#settings.on{display:block;animation:viewin .2s}#settings h4{margin:2px 0 6px;font-size:12px;letter-spacing:2px;color:#9aa3d6;text-transform:uppercase}
+#settings label{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 0;font-size:14px;border-bottom:1px solid rgba(255,255,255,.06)}
+#settings input[type=checkbox]{width:20px;height:20px;accent-color:#ffcf4a}#settings input[type=range]{width:120px;accent-color:#ffcf4a}
+#settings .note{font-size:11px;color:#9aa3d6;line-height:1.4;margin-top:4px}

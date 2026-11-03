@@ -1,0 +1,33 @@
+/* ---- F8 achievements ---- */
+#achbtn{font-size:16px;line-height:1;padding:7px 11px;position:relative}
+#achbtn.nw:after{content:"";position:absolute;top:4px;right:5px;width:8px;height:8px;border-radius:50%;background:#ffcf4a;box-shadow:0 0 0 2px #0b0d1c}
+.atile .bicon{font-size:60px}
+#vAch{padding:0 calc(18px + var(--sa-r,0px)) calc(40px + var(--sa-b,0px)) calc(18px + var(--sa-l,0px));max-width:1100px;margin:0 auto;touch-action:pan-y}
+.achtop{padding:16px 2px 4px}
+.achsum{font-size:15px;color:var(--mut)}.achsum b{font-size:30px;color:var(--gold);font-family:Orbitron,Outfit,sans-serif;margin-right:2px}
+.achbar,.achp{height:6px;border-radius:99px;background:#ffffff14;overflow:hidden;margin:8px 0 12px}.achbar i,.achp i{display:block;height:100%;border-radius:inherit;background:linear-gradient(90deg,#c9a24a,#ffd54a)}
+.achtabs{display:flex;gap:6px;flex-wrap:wrap}.achtabs button{padding:7px 14px;font-size:13px}.achtabs button.on{background:linear-gradient(180deg,#ffe78a,#ffc22e);color:#1b1300}
+.achnote{font-size:12px;color:var(--mut);margin:10px 2px 4px;line-height:1.4}
+.achh{display:flex;align-items:baseline;gap:10px;margin:22px 2px 10px;font-size:13px;font-weight:800;letter-spacing:3px;text-transform:uppercase;color:#e8ecff}
+.achh small{letter-spacing:1px;color:var(--mut);font-weight:600}.achh:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.achgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.ach{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.04);border:1px solid var(--line);contain:layout paint}
+.ach.on{background:linear-gradient(160deg,rgba(255,213,74,.09),rgba(255,255,255,.03));border-color:rgba(255,213,74,.28)}
+.achi{flex:none;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;font-size:22px;background:#ffffff0d}
+.ach.on .achi{background:rgba(255,213,74,.14)}.ach.off .achi{opacity:.4}
+.achb{min-width:0;flex:1}.achb b{display:block;font-size:15px;color:#f2f4ff}.ach.off .achb b{color:#c3c8e6}
+.achb p{margin:2px 0 0;font-size:13px;color:var(--mut);line-height:1.35}
+.achb .achp{margin:8px 0 3px;height:5px}.achpn,.achd{font-size:11.5px;color:var(--mut)}.achd{display:block;margin-top:5px;color:#d9c27a}
+.ach.sec .achb b{color:#9aa3c7}
+#achtoast{position:fixed;left:50%;top:70px;z-index:90;display:flex;gap:12px;align-items:center;width:max-content;max-width:min(380px,calc(100vw - 24px));padding:10px 16px 10px 12px;border-radius:16px;
+ background:rgba(14,16,34,.96);border:1px solid rgba(255,213,74,.35);box-shadow:0 14px 34px rgba(0,0,0,.55);color:#e9ecff;cursor:pointer;touch-action:none;
+ opacity:0;visibility:hidden;transform:translate(-50%,-14px);transition:opacity .26s,transform .26s cubic-bezier(.2,.8,.2,1),visibility 0s .26s}
+#achtoast.on{opacity:1;visibility:visible;transform:translate(-50%,0);transition:opacity .26s,transform .3s cubic-bezier(.2,.8,.2,1)}
+#achtoast .ati{flex:none;width:40px;height:40px;border-radius:12px;display:grid;place-items:center;font-size:22px;background:rgba(255,213,74,.14)}
+#achtoast .atb{min-width:0}#achtoast small{display:block;font-size:10.5px;letter-spacing:2px;text-transform:uppercase;color:#d9c27a}
+#achtoast b{display:block;font-size:15px;margin-top:1px}#achtoast span{display:block;font-size:12.5px;color:var(--mut);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#achtoast .atic i{font-style:normal;margin-right:4px}#achtoast .atic em{font-style:normal;font-size:12px}
+.bxach{margin:0 0 12px;padding:10px 12px;border-radius:14px;background:linear-gradient(160deg,rgba(255,213,74,.08),rgba(255,255,255,.03));border:1px solid rgba(255,213,74,.25)}
+.bxach h3{margin:0 0 8px!important;font-size:14px}.bxachl{display:flex;flex-wrap:wrap;gap:6px}
+.bxachc{display:inline-flex;gap:6px;align-items:center;padding:4px 10px;border-radius:99px;background:#ffffff0d;border:1px solid var(--line);font-size:12.5px}.bxachc i{font-style:normal}
+@media (prefers-reduced-motion:reduce){#achtoast,#achtoast.on{transition:opacity .2s}}

@@ -1,0 +1,7 @@
+
+/* F17: NEW ribbons in the box summary */
+.bxsum .bxt{position:relative;overflow:hidden}
+.bxsum .bxt .nhrib{width:52%}
+.bxsum .bxt .nhrib span{font-size:clamp(7px,2.2vw,10px)}
+.bxsum .bbc .bxt .nhrib span{font-size:clamp(8px,2.6vw,12px)}
+.nhsum.bxnh{margin:14px auto 4px}

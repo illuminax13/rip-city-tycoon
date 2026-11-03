@@ -1,0 +1,13 @@
+/* ==== F3: card zoom (#viewer) ==== */
+#viewer{background:rgba(4,5,10,.95);-webkit-backdrop-filter:none;backdrop-filter:none;touch-action:none;-webkit-user-select:none;user-select:none}
+#vcard .card{width:min(84vw,calc((100dvh - 230px) * 63 / 88),460px)}
+#vcard .card.zin-l{animation:zin-l .28s cubic-bezier(.2,.8,.2,1)}#vcard .card.zin-r{animation:zin-r .28s cubic-bezier(.2,.8,.2,1)}
+@keyframes zin-l{from{transform:translate3d(-60px,0,0)}}@keyframes zin-r{from{transform:translate3d(60px,0,0)}}
+#vinfo{text-align:center;color:#dfe3ff;font-size:14px;line-height:1.5;max-width:min(92vw,520px);padding:0 12px}#vinfo b{font-size:17px;color:#fff}#vinfo .zp{color:#ffd54a;font-weight:700}#vinfo .zn{color:#9aa3d6;font-size:12px}
+.znav,.zclose{position:absolute;z-index:3;appearance:none;border:1px solid var(--line);background:rgba(255,255,255,.08);color:#fff;border-radius:999px;cursor:pointer;font:inherit}
+.znav{top:50%;width:46px;height:46px;margin-top:-23px;font-size:26px;line-height:1}.zprev{left:calc(12px + var(--sa-l,0px))}.znext{right:calc(12px + var(--sa-r,0px))}
+.zclose{top:calc(12px + var(--sa-t,0px));right:calc(12px + var(--sa-r,0px));width:40px;height:40px;font-size:18px}
+.znav[disabled]{opacity:.25;cursor:default}
+@media (max-width:640px){.znav{top:auto;bottom:calc(14px + var(--sa-b,0px));margin:0}}
+#hist>div[data-h],#coll>div[data-k],#summary .card,#bsum .card{cursor:zoom-in}
+#vcard{will-change:transform}#vcard .card.zin-l .foil,#vcard .card.zin-r .foil,#vcard .card.zin-l .glare,#vcard .card.zin-r .glare,#vcard .card.zdrag .foil,#vcard .card.zdrag .glare{visibility:hidden}

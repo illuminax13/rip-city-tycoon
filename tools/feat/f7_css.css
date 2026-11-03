@@ -1,0 +1,45 @@
+/* F7: interactive 3D booster box */
+.bx3d{position:relative;margin:0 auto;max-width:560px;touch-action:none;-webkit-user-select:none;user-select:none}
+.bxscene{position:relative;height:clamp(300px,54vh,500px);overflow:visible;cursor:grab}
+.bxscene:active{cursor:grabbing}
+.bxshadow{position:absolute;left:50%;top:84%;width:340px;height:70px;margin:-35px 0 0 -170px;border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.55),rgba(0,0,0,0));transform:scale(var(--k,1));animation:bxshf 5s ease-in-out infinite;pointer-events:none}
+.bxfloat{position:absolute;left:50%;top:50%;animation:bxfl 5s ease-in-out infinite}
+@keyframes bxfl{50%{transform:translateY(-7px)}}
+@keyframes bxshf{50%{transform:scale(calc(var(--k,1)*.93));opacity:.8}}
+.bxobj{position:absolute;left:0;top:0}
+.bx3d .f{position:absolute;left:0;top:0;overflow:hidden;box-sizing:border-box;transform-origin:0 0}
+.bx3d .o{background:linear-gradient(160deg,var(--c0),var(--c1))}
+.bx3d .o::after{content:"";position:absolute;inset:0;background:radial-gradient(120% 90% at 50% 30%,rgba(0,0,0,.18),rgba(0,0,0,.55));pointer-events:none}
+.bx3d .sd::after,.bx3d .bk::after,.bx3d .lb::after,.bx3d .ls::after{background:linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,.62))}
+.bx3d .bt{background:#121218}
+.bx3d .in{background:linear-gradient(180deg,#3a332c,#26211c)}.bx3d .ib{background:#1d1915}.bx3d .lu{background:linear-gradient(180deg,#2f2a24,#1c1814)}
+.bxart{position:absolute;left:0;right:0;bottom:-6%;height:78%;z-index:1}
+.bxart img{position:absolute;bottom:0;height:100%;width:auto;border-radius:3px;box-shadow:0 4px 12px rgba(0,0,0,.5)}
+.bxart img:nth-child(1){left:6%;transform:rotate(-9deg);transform-origin:bottom center}
+.bxart img:nth-child(2){left:50%;margin-left:-19%;z-index:2;height:106%}
+.bxart img:nth-child(3){right:6%;transform:rotate(9deg);transform-origin:bottom center}
+.bx3d .bxlogo{position:absolute;left:50%;top:7%;width:58%;height:auto;max-height:30%;object-fit:contain;transform:translateX(-50%);z-index:3}
+.bx3d .lt .bxlogo{top:50%;width:62%;max-height:40%;transform:translate(-50%,-50%)}
+.bx3d .lt .bxart{height:70%;bottom:auto;top:15%;opacity:.55}
+.bxlbl{position:absolute;left:0;right:0;bottom:5px;z-index:3;text-align:center;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.82);font-weight:700}
+.bxvt{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:2;font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:rgba(255,255,255,.75)}
+.bx3d .lf .bxvt{font-size:9px}
+.bx3d .wr{position:absolute;inset:0;transform-origin:100% 50%;transform-origin:100% 50%;z-index:5;pointer-events:none;background:linear-gradient(112deg,rgba(255,255,255,0) 32%,rgba(255,255,255,.15) 45%,rgba(255,255,255,.04) 52%,rgba(255,255,255,0) 62%),linear-gradient(rgba(255,255,255,.035),rgba(255,255,255,.035));background-size:320% 100%,100% 100%;box-shadow:inset 0 0 0 1px rgba(255,255,255,.13),inset 0 0 18px rgba(255,255,255,.05);transition:opacity .45s}
+.bx3d .strip{transform-origin:100% 50%;position:absolute;left:0;right:0;top:9px;height:5px;z-index:6;background:repeating-linear-gradient(90deg,rgba(255,255,255,.35) 0 8px,rgba(255,255,255,.08) 8px 12px);transition:opacity .45s}
+.bx3d.torn .wr,.bx3d.torn .strip{opacity:0}
+.bxp{position:absolute;left:0;top:0;transform-origin:0 0;border-radius:3px;box-shadow:0 -1px 0 rgba(255,255,255,.25) inset;cursor:pointer;-webkit-user-drag:none}
+.bxp.lift{transition:opacity .45s .05s;opacity:0}
+.bxfx{position:absolute;inset:0;pointer-events:none;overflow:visible;z-index:4}
+.cp{position:absolute;left:0;top:0;opacity:0;width:24px;height:15px;margin:-7px 0 0 -12px;border-radius:2px 70% 3px 55%;background:linear-gradient(135deg,rgba(255,255,255,.42),rgba(255,255,255,.07) 55%,rgba(255,255,255,.26));will-change:transform,opacity;contain:strict}
+@keyframes cpfly{to{transform:translate(var(--dx),var(--dy)) rotate(var(--r)) scale(var(--s));opacity:0}}
+.bxhint{text-align:center;color:#c8cdf0;font-size:14px;min-height:20px;margin:2px 0 6px}
+.bxhint b{color:#fff}
+.bxpips{display:flex;flex-wrap:wrap;justify-content:center;gap:3px;max-width:200px;margin:0 auto 8px}
+.bxpips i{width:7px;height:10px;border-radius:2px;background:var(--gold,#ffd54a);opacity:.85}.bxpips i.x{opacity:.15}
+.bxleftn{text-align:center;font-size:13px;color:#9aa3d6;margin-bottom:4px}
+.bxfine{max-width:520px;margin:8px auto 0;text-align:center}.bxfine .bxchk{justify-content:center;font-size:12.5px}.bxfine .bxnote{font-size:11px;margin:4px 0}
+#bxall[disabled]{opacity:.4;cursor:default}
+#boxv .bxprods{display:flex;flex-wrap:nowrap;gap:6px;margin:0 0 4px}#boxv .bxprods button{flex:1 1 0;min-width:0;padding:6px 8px;font-size:12.5px;line-height:1.25;margin:0}#boxv .bxprods button small{font-size:10px}
+#boxv .bxact{justify-content:center}
+.bxhint.nudge{animation:bxnud .5s}@keyframes bxnud{30%{transform:translateX(-6px)}60%{transform:translateX(5px)}}
+.bxobj.live .f,.bxobj.live .bxp,.bx3d:not(.torn) .bxobj.live .wr,.bx3d:not(.torn) .bxobj.live .strip{will-change:transform}
