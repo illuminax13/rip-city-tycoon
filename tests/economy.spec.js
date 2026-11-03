@@ -73,8 +73,11 @@ test('booster box: discounted price, tearing the wrap buys it, blocked when brok
   const bp = await page.evaluate(i => __ec.boxPrice(SETS[i], BOX.prod), SV08);
   expect(bp).toBe(Math.round(449 * 36 * 0.8));
   await expect(page.locator('.bxprice')).toContainText('$129.31');
-  await H.boxDrag(page, .08, .5, .95, .52, 18);
-  await expect(page.locator('#ecm.on')).toContainText('Not enough cash');
+  // headless WebKit occasionally drops the first drag while the box intro settles: retry the gesture
+  await expect(async () => {
+    if (!(await page.locator('#ecm.on').count())) await H.boxDrag(page, .08, .5, .95, .52, 18);
+    await expect(page.locator('#ecm.on')).toContainText('Not enough cash', {timeout: 3000});
+  }).toPass({timeout: 20000});
   await expect(page.locator('#bx3d.torn')).toHaveCount(0);
   await page.locator('#ecm .acts button', {hasText: 'OK'}).click();
   await page.evaluate(() => { __ec.EC.d.cash = 50000; __ec.save(); });

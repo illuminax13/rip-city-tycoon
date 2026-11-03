@@ -791,7 +791,7 @@ header .wchip{order:0;margin-right:2px}
 .ecptag small{color:#8fbfa9;font-weight:500;margin-left:4px}
 .tile .ptag{position:absolute;z-index:2;top:12px;left:12px;font-size:12px;font-weight:700;letter-spacing:.3px;color:#f4e6bf;background:#082016e0;border:1px solid #2fbf8640;border-radius:999px;padding:3px 9px;font-variant-numeric:tabular-nums}
 .tile .ptag.v{color:#f2c85b}
-#tear .hint .ecpay{display:block;font-size:13px;color:#cfe9dc;margin-top:3px;font-weight:600}
+#tear .hint .ecpay{position:absolute;left:50%;bottom:calc(100% + 10px);transform:translateX(-50%);white-space:nowrap;padding:6px 14px;border-radius:999px;background:#0b2419e6;color:#f2c85b;border:1px solid #f2c85b55;font-size:14px;font-weight:700;letter-spacing:.3px;box-shadow:0 4px 14px #0004}
 /* modal sheet */
 #ecm{position:fixed;inset:0;z-index:200;display:none;align-items:flex-end;justify-content:center;background:rgba(2,8,5,.62);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
 #ecm.on{display:flex;animation:ecfade .2s ease}@keyframes ecfade{from{opacity:0}}
@@ -846,7 +846,7 @@ header .wchip{order:0;margin-right:2px}
 .bxprods button .bxpr{display:block;margin-top:3px;color:#f2c85b;font-weight:800;font-variant-numeric:tabular-nums}
 .bxprice{text-align:center;margin:6px 0 2px;color:#cfe9dc}.bxprice b{color:#f2c85b}
 #boxv .bxtop .wchip{margin-left:auto;margin-right:8px}
-@media(max-width:640px){header{padding:10px 12px 8px;gap:6px}h1{font-size:18px;flex-basis:100%;margin:0 0 2px}header button{padding:8px 11px;font-size:14px;min-width:42px;min-height:40px}header .blbl{display:none}header .wchip{padding:6px 12px 6px 6px;font-size:15px}.stats{margin-left:auto}.stats{gap:10px;font-size:13px}.stats>span:nth-child(2){display:none}.tyhead b{font-size:17px}.welcome{margin:10px 14px 0}}
+@media(max-width:640px){header{padding:10px 12px 8px;gap:6px}h1{font-size:18px;flex-basis:100%;margin:0 0 2px}header button{padding:8px 11px;font-size:14px;min-width:42px;min-height:40px}header .blbl{display:none}header #back{font-size:0;padding:8px 12px}header #back:before{content:"←";font-size:18px;line-height:1}header .wchip{padding:6px 12px 6px 6px;font-size:15px}.stats{margin-left:auto}.stats{gap:10px;font-size:13px}.stats>span:nth-child(2){display:none}.tyhead b{font-size:17px}.welcome{margin:10px 14px 0}}
 /*</f20css>*/
 </style></head><body><div id="bg"></div><canvas id="fx"></canvas><div id="burst"></div>
 <div id="tear"></div><div id="badge">CSS · loading</div>
@@ -2691,7 +2691,7 @@ const ecNet=()=>{let v=0;try{v=Math.round((pxValue().v||0)*100)}catch(e){}return
 {const ph=pxHeader;pxHeader=function(){const r=ph.apply(this,arguments);try{$("netc").textContent=moneyS(ecNet().net)}catch(e){}return r}}
 /* ---------- hub view (challenges / sell / wallet) ---------- */
 (function(){const v=document.createElement("div");v.id="vTy";v.className="view";const a=$("vAch")||$("vBinder");a.after(v)})();
-{const sh=show;show=function(v){const r=sh.apply(this,arguments);$("vTy").classList.toggle("on",v==="vTy");if(v==="vTy"){$("binders").style.display=""}return r}}
+{const sh=show;show=function(v){const r=sh.apply(this,arguments);$("vTy").classList.toggle("on",v==="vTy");{const st=$("status");if(st)st.style.display=v==="vTy"?"none":""}if(v==="vTy"){$("binders").style.display=""}return r}}
 let ecTab="ch";
 function ecOpenHub(tab){ecTab=tab||ecTab;$("viewer").classList.remove("on");show("vTy");ecHub();window.scrollTo(0,0)}
 function ecChRow(kind,id){const st=ecPeriod(kind),c=ecDef(id);if(!c)return "";const p=Math.min(st.p[id]||0,c.g),done=!!st.c[id],ready=!done&&p>=c.g;
