@@ -2161,7 +2161,7 @@ function bkToast(t,act){let e=$("bktoast");if(!e){e=document.createElement("div"
  e.innerHTML=`<span>${esc(t)}</span>`+(act?`<button class="ghost" id="bktAct">${esc(act[0])}</button>`:"");if(act)$("bktAct").onclick=()=>{e.classList.remove("on");act[1]()};
  e.classList.add("on");clearTimeout(bkToast.t);bkToast.t=setTimeout(()=>e.classList.remove("on"),act?9000:3200)}
 async function bkExport(){const {name,blob,o}=bkFile();const done=()=>{try{localStorage.setItem(BK.at,String(Date.now()))}catch(e){}bkNote();bkToast(`Backup saved · ${o.counts.packs.toLocaleString()} packs`)};
- try{const f=new File([blob],name,{type:"application/json"});if(navigator.canShare&&navigator.share&&navigator.canShare({files:[f]})&&/iP(hone|ad|od)|Android/.test(navigator.userAgent)){await navigator.share({files:[f],title:"Rip City Tycoon Tycoon backup"});done();return}}
+ try{const f=new File([blob],name,{type:"application/json"});if(navigator.canShare&&navigator.share&&navigator.canShare({files:[f]})&&/iP(hone|ad|od)|Android/.test(navigator.userAgent)){await navigator.share({files:[f],title:"Rip City Tycoon backup"});done();return}}
  catch(e){if(e&&e.name==="AbortError")return;/* share failed: fall back to a download */}
  const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},4000);done()}
 function bkParse(txt){let j;try{j=JSON.parse(txt)}catch(e){throw Error("This file isn't a Rip City Tycoon backup (not JSON).")}

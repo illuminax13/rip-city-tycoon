@@ -10,7 +10,7 @@ const DEVICE = {
   rctPrefs: JSON.stringify({sound: false}),
   rctPrice: '{"big":"cache"}',
 };
-const BACKUP = {app: 'rippermon', kind: 'backup', v: 1, exported: '2026-10-01T12:00:00.000Z', data: {
+const BACKUP = {app: 'rctycoon', kind: 'backup', v: 1, exported: '2026-10-01T12:00:00.000Z', data: {
   rct: coll(5530, {base1: {'4': {name: 'Charizard', rarity: 'Rare Holo', n: 3, lid: '4'}}, '30th': {CC01: {name: 'Pikachu', rarity: 'Classic Collection', n: 2, lid: 'cc01'}}}),
   rctAch: JSON.stringify({v: 1, u: {first: 500, b25: 900}, bf: {}, st: {boxes: 4}, bt: {}, nw: 0, since: 500}),
 }};
@@ -39,9 +39,9 @@ test('export makes one versioned file of the app data (no caches)', async ({page
   await openSettings(page);
   await expect(page.locator('#bkNote')).toContainText('No backup yet');
   const [dl] = await Promise.all([page.waitForEvent('download'), page.locator('#bkExp').click()]);
-  expect(dl.suggestedFilename()).toMatch(/^ripcity-backup-\d{4}-\d\d-\d\d\.json$/);
+  expect(dl.suggestedFilename()).toMatch(/^rip-city-tycoon-backup-\d{4}-\d\d-\d\d\.json$/);
   const j = JSON.parse(require('fs').readFileSync(await dl.path(), 'utf8'));
-  expect(j).toMatchObject({app: 'ripcity', kind: 'backup', v: 1, counts: {packs: 30, unique: 2, sets: 1}});
+  expect(j).toMatchObject({app: 'rctycoon', kind: 'backup', v: 1, counts: {packs: 30, unique: 2, sets: 1}});
   expect(j.counts.ach).toBeGreaterThanOrEqual(1);
   expect(Object.keys(j.data)).toEqual(expect.arrayContaining(['rct', 'rctAch', 'rctPrefs']));
   expect(j.data.rctPrice).toBeUndefined();
@@ -76,7 +76,7 @@ test('import replace restores the backup exactly; bad files are rejected', async
   await gotoApp(page);
   await openSettings(page);
   await page.locator('#bkFile').setInputFiles({name: 'x.json', mimeType: 'application/json', buffer: Buffer.from('{"hello":1}')});
-  await expect(page.locator('#bktoast.on')).toContainText("isn't a Rip City backup");
+  await expect(page.locator('#bktoast.on')).toContainText("isn't a Rip City Tycoon backup");
   await expect(page.locator('#bkdlg.on')).toHaveCount(0);
   await page.keyboard.press('Escape');
   await page.mouse.click(5, 400);
