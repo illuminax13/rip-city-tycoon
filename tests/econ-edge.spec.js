@@ -87,3 +87,24 @@ test('achievement rewards pay once, also across reloads', async ({page}) => {
   await page.reload(); await page.waitForSelector('.tile');
   expect(await page.evaluate(() => { const a = ACHS.find(x => x.id === 'p10'), c0 = __ec.EC.d.cash; ecAchPay([a]); achEval && achEval(); return __ec.EC.d.cash - c0; })).toBe(0);
 });
+
+test('box pulls are prepaid only while that box is open', async ({page}) => {
+  await fresh(page, {seed: {rctEcon: econ(100000)}});
+  await page.evaluate(i => openBox(SETS[i]), SV08);
+  await page.locator('#bx3d .bxscene').waitFor(); await page.waitForTimeout(1300);
+  await H.tearWrap(page);
+  const bp = await page.evaluate(i => __ec.boxPrice(SETS[i], BOX.prod), SV08);
+  expect(await cash(page)).toBe(100000 - bp);
+  await H.openLid(page);
+  await page.evaluate(() => boxOne(0)); await page.waitForSelector('#tear.on', {timeout: 15000}); await H.doTear(page);
+  const ach = await page.evaluate(() => __ec.EC.d.tx.filter(t => t.k !== 'buy').reduce((a, t) => a + t.a, 0));
+  expect(await cash(page) - ach).toBe(100000 - bp);                                // the box pack itself costs nothing more
+  // a stale pull (its box is no longer the open one) is charged like any pack
+  await page.evaluate(() => { show('vPick'); });
+  await H.chooseSet(page, SV08); await H.skipAndLand(page);
+  await page.evaluate(() => { NEXT = {s: set, p: buildPack(set, cache[set.dex].pools), box: 3}; BOX = null; });
+  const c1 = await cash(page);
+  await H.tapCenterPack(page); await H.doTear(page);
+  const ach2 = await page.evaluate(() => __ec.EC.d.tx.filter(t => t.k !== 'buy').reduce((a, t) => a + t.a, 0));
+  expect(await cash(page) - (ach2 - ach)).toBe(c1 - 449);
+});

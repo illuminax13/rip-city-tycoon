@@ -2609,7 +2609,8 @@ function ecPumpT(){if(ecTS||!ECQ.length)return;if(typeof achGate==="function"&&!
  setTimeout(()=>{t.classList.remove("on");setTimeout(()=>{ecTS=0;ecPumpT()},400)},3200)}
 /* ================= hooks into the game ================= */
 /* single packs: block when broke, charge when the pack is actually opened */
-const ecIsBoxNext=()=>NEXT&&NEXT.s===set&&NEXT.box!=null;
+/* a pack pulled from a box is prepaid only while that box is still the open one (a stale pull from a closed box must be paid for) */
+const ecIsBoxNext=()=>!!(NEXT&&NEXT.s===set&&NEXT.box!=null&&BOX&&BOX.packs&&BOX.packs[NEXT.box]===NEXT.p);
 {const tp=tearPack;tearPack=function(a,i){
  if(set&&!ecIsBoxNext()){const c=ecPackPrice(set);if(!ecCan(c)){state="landed";const pk=$("strip")&&$("strip").children[i];if(pk)pk.classList.add("landed");$("whint").classList.remove("off");setHint(`${money(c)} a pack — not enough cash`);ecBroke(c,`A ${set.name} pack`);return}}
  const r=tp.apply(this,arguments);try{const h=document.querySelector("#tear .hint");if(h&&!ecIsBoxNext()&&!h.querySelector(".ecpay"))h.insertAdjacentHTML("beforeend",`<span class="ecpay">${money(ecPackPrice(set))} · tear to buy</span>`)}catch(e){}return r}}
