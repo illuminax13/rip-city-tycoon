@@ -1214,9 +1214,9 @@ const PK={q:"",f:"all",c:null};
 const pkOwn=s=>{const o=store.sets&&store.sets[s.dex];if(!o)return 0;for(const k in o)if(o[k]&&o[k].n)return 1;return 0};
 function pkCollapsed(){if(PK.c)return PK.c;let c=null;try{c=JSON.parse(localStorage.getItem("rctEraC")||"null")}catch(e){}
  if(!c){c={};for(const [g] of ERAS)if(!["me","sv","swsh","neo","base"].includes(g)&&!PKS.some(([s])=>eraOf(s)===g&&pkOwn(s)))c[g]=1}return PK.c=c}
-/* pokemontcg.io has no symbol for these yet: each miss downloaded a ~180 KB 404 page on every cold load (the img was removed on error anyway) */
+/* pokemontcg.io has no symbol for these yet: its 404 is a 180 KB placeholder image downloaded on every cold load; show the same placeholder from a 3 KB local copy */
 const NOSYM=new Set(["me2pt5","me3","me4","me5","me55"]);
-const pkTile=(s,i,k)=>`<div class="tile" data-i="${i}" data-g="${eraOf(s)}" style="--c1:${s.colors[0]};animation-delay:${Math.min(k,8)*60}ms">${NOSYM.has(s.ptcg)?"":`<img class="sym" loading="lazy" referrerpolicy="no-referrer" src="https://images.pokemontcg.io/${s.ptcg}/symbol.png" onerror="this.remove()">`}
+const pkTile=(s,i,k)=>`<div class="tile" data-i="${i}" data-g="${eraOf(s)}" style="--c1:${s.colors[0]};animation-delay:${Math.min(k,8)*60}ms"><img class="sym" loading="lazy" referrerpolicy="no-referrer" src="${NOSYM.has(s.ptcg)?"assets/sym-missing.webp":`https://images.pokemontcg.io/${s.ptcg}/symbol.png`}" onerror="this.remove()">
  <div class="logo">${img(logoSrcs(s),s.name,"").replace("<img ",'<img loading="lazy" decoding="async" data-ph="txtlogo" '+logoSet(s))}</div><h3>${esc(s.name)}</h3><small>${s.year}</small></div>`;
 const pkNorm=t=>String(t).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/&/g," and ").replace(/[^a-z0-9.]+/g," ").trim();
 const pkHay=new Map(PKS.map(([s])=>[s.dex,pkNorm([s.name,s.dex,s.ptcg,s.year,(ERAS.find(e=>e[0]===eraOf(s))||[])[1]].join(" "))]));
