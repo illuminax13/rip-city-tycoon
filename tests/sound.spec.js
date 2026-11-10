@@ -21,7 +21,7 @@ test('sound + haptics: unlock on first gesture, low default volume, sfx hooks, m
   await revealAll(page);
   // mute: master gain 0, nothing plays, persisted
   await page.locator('#setbtn').click(); await page.locator('#optSound').uncheck();
-  const m = await page.evaluate(() => { const n = SND.n; SND.last = {}; sfx.snap(); sfx.fanfare(); return {gain: SND.master.gain.value, played: SND.n - n, saved: JSON.parse(localStorage.ppsPrefs).sound}; });
+  const m = await page.evaluate(() => { const n = SND.n; SND.last = {}; sfx.snap(); sfx.fanfare(); return {gain: SND.master.gain.value, played: SND.n - n, saved: JSON.parse(localStorage.rctPrefs).sound}; });
   expect(m).toEqual({gain: 0, played: 0, saved: false});
   await page.locator('#optSound').check(); await page.locator('#optVol').fill('80');
   const vg = await page.evaluate(() => [PREF.vol, SND.master.gain.value]); expect(vg[0]).toBe(0.8); expect(vg[1]).toBeCloseTo(0.4, 4);

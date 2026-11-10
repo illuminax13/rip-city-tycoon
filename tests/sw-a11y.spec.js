@@ -26,7 +26,7 @@ test('a11y basics: controls labeled', async ({page}) => {
   await expect(page.locator('#sback')).toContainText(/Sets/i);
   await page.locator('#sback').click();
   await expect(page.locator('#binders')).toContainText(/Binder/i);
-  await expect(page.locator('#reset')).toContainText(/reset/i);
+  await expect(page.locator('#reset')).toContainText(/new game/i);
 });
 
 test('rapid double-tap center pack does not double-open', async ({page}) => {

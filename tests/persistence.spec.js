@@ -35,8 +35,9 @@ test('reset clears collection', async ({page}) => {
     localStorage.setItem('rct', JSON.stringify({packs:5,coll:{},hist:[],sets:{base1:{'4':{name:'Z',rarity:'R',imgs:[],n:1}}}}));
   });
   await gotoApp(page);
-  page.once('dialog', d => d.accept());
-  await Promise.all([page.waitForEvent('load'), page.locator('#reset').click()]);
+  // Tycoon: "new game" confirms in its own sheet, not a browser dialog
+  await page.locator('#reset').click();
+  await Promise.all([page.waitForEvent('load'), page.locator('#ecfresh').click()]);
   await page.waitForSelector('.tile');
   const st = await page.evaluate(() => JSON.parse(localStorage.getItem('rct')||'{}'));
   expect(st.packs||0).toBe(0);
